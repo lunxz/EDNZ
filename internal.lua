@@ -152,7 +152,7 @@ Dim.Size = UDim2.new(1, 0, 1, 0)
 Dim.Visible = false
 Dim.ZIndex = 0
 
-Executor.Name = "Chinese.cn Internal"
+Executor.Name = "Executor"
 Executor.Parent = FakeInternal
 Executor.AnchorPoint = Vector2.new(0.5, 0.5)
 Executor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -808,7 +808,7 @@ Version.LayoutOrder = 100
 Version.Position = UDim2.new(0, 0, 1, -5)
 Version.Size = UDim2.new(1, 0, 0, 20)
 Version.Font = Enum.Font.Gotham
-Version.Text = "v1.0.0 | Private Internal"
+Version.Text = "v1.0.0 | made by zzerexx#3970"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
 
