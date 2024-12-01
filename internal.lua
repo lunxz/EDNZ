@@ -170,7 +170,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(1, 0, 0, 30)
 Title.ZIndex = 2
 Title.Font = Enum.Font.Gotham
-Title.Text = "Chinese Internal"
+Title.Text = "Vanguard Private Internal"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 14.000
 
@@ -808,7 +808,7 @@ Version.LayoutOrder = 100
 Version.Position = UDim2.new(0, 0, 1, -5)
 Version.Size = UDim2.new(1, 0, 0, 20)
 Version.Font = Enum.Font.Gotham
-Version.Text = "Chinese.cn | Xin Jin Ping"
+Version.Text = "V2.3.6 | Vanguard ⚡🛡️"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
 
@@ -1216,7 +1216,7 @@ local function SIPZBJ_fake_script() -- FakeInternal.MainScript
 		shared.FakeInternal = {}
 	end
 	
-	shared.FakeInternal.Version = "Chinese.cn"
+	shared.FakeInternal.Version = "V2.3.6"
 	
 	local UserInputService = game:GetService("UserInputService")
 	local ContextActionService = game:GetService("ContextActionService")
@@ -1674,7 +1674,7 @@ local function CLAL_fake_script() -- Settings.SettingsScript
 			task.wait(0.1)
 		until shared.FakeInternal.Version ~= nil
 	
-		script.Parent.Version.Text = string.format("%s | Xin Jing Ping", shared.FakeInternal.Version)
+		script.Parent.Version.Text = string.format("%s | Vanguard ⚡🛡️", shared.FakeInternal.Version)
 	end)
 end
 coroutine.wrap(CLAL_fake_script)()
