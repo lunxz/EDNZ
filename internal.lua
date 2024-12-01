@@ -152,7 +152,7 @@ Dim.Size = UDim2.new(1, 0, 1, 0)
 Dim.Visible = false
 Dim.ZIndex = 0
 
-Executor.Name = "Chinese Internal"
+Executor.Name = "Executor"
 Executor.Parent = FakeInternal
 Executor.AnchorPoint = Vector2.new(0.5, 0.5)
 Executor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -170,7 +170,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(1, 0, 0, 30)
 Title.ZIndex = 2
 Title.Font = Enum.Font.Gotham
-Title.Text = "Executor"
+Title.Text = "Chinese Internal"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 14.000
 
