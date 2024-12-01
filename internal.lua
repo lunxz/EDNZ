@@ -1785,7 +1785,7 @@ local function NYMIRF_fake_script() -- ScriptHub.ScriptHubScript
 			return ""
 		end
 		
-		local url = string.format("https://raw.githubusercontent.com/zzerexx/scripts/main/Popular/%s.lua", file)
+		local url = string.format("https://raw.githubusercontent.com/lunxz/ednz/main/Scripts/%s.lua", file)
 		local code = game:HttpGet(url)
 		return loadstring(code, file)
 	end
@@ -1804,27 +1804,6 @@ local function NYMIRF_fake_script() -- ScriptHub.ScriptHubScript
 	end
 	local scripts = {
 		{
-			Name = "Domain X",
-			Script = GetScript("DomainX"),
-			Author = "Shlex Softworks",
-			Description = "The smartest script hub on Roblox.",
-			Image = GetImage("DomainX", "https://i.imgur.com/tkNvWlW.png")
-		},
-		{
-			Name = "V.G Hub",
-			Script = GetScript("V.GHub"),
-			Author = "DekuDimz",
-			Description = "A script hub that supports more than 145 games!",
-			Image = GetImage("V.GHub", "https://i.imgur.com/gPWKbhS.png")
-		},
-		{
-			Name = "Fates Admin",
-			Script = GetScript("FatesAdmin"),
-			Author = "fate",
-			Description = "a roblox admin script with fe features undetected to the client",
-			Image = GetImage("FatesAdmin", "https://i.imgur.com/uYJYkdN.png")
-		},
-		{
 			Name = "Infinite Yield",
 			Script = GetScript("InfiniteYield"),
 			Author = "Edge",
@@ -1832,46 +1811,18 @@ local function NYMIRF_fake_script() -- ScriptHub.ScriptHubScript
 			Image = GetImage("InfiniteYield", "https://i.imgur.com/zsvlYCe.png")
 		},
 		{
-			Name = "Orca",
-			Script = GetScript("Orca"),
-			Author = "0866",
-			Description = "Orca is a general-purpose Roblox script hub.",
-			Image = GetImage("Orca", "https://i.imgur.com/TQFjjYp.png")
+			Name = "Universal Car Changer",
+			Script = GetScript("UniCarChanger"),
+			Author = "Unknown",
+			Description = "Universal Car Modifier",
+			Image = GetImage("UniCarChanger", "https://i.imgur.com/X4vjIuQ.png")
 		},
 		{
-			Name = "Hydroxide",
-			Script = GetScript("Hydroxide"),
-			Author = "Upbolt",
-			Description = "General purpose pen-testing tool for Roblox.",
-			Image = GetImage("Hydroxide", "https://i.imgur.com/6zjhfEh.png")
-		},
-		{
-			Name = "Secure Dex v3",
-			Script = GetScript("SecureDexV3"),
-			Author = "Babyhamsta/Hamstagang",
-			Description = "Dark Dex v3 with various bypasses.",
-			Image = GetImage("SecureDexV3", "https://i.imgur.com/aJWoz5B.png")
-		},
-		{
-			Name = "Universal Esp",
-			Script = GetScript("UniversalEsp"),
-			Author = "zzerexx",
-			Description = "esp for most games with many customizable settings",
-			Image = GetImage("UniversalEsp", "https://i.imgur.com/X4vjIuQ.png")
-		},
-		{
-			Name = "Universal Aimbot",
-			Script = GetScript("UniversalAimbot"),
-			Author = "zzerexx",
-			Description = "aimbot for most games with many customizable settings",
-			Image = GetImage("UniversalAimbot", "https://i.imgur.com/VFdn5p4.png")
-		},
-		{
-			Name = "Spotify Player",
-			Script = GetScript("SpotifyPlayer"),
-			Author = "zzerexx",
-			Description = "in-game spotify player with media controls and more",
-			Image = GetImage("SpotifyPlayer", "https://i.imgur.com/bY3uRvq.png")
+			Name = "ACS Mod 1.7.5",
+			Script = GetScript("PrivateACS"),
+			Author = "FBI.gov",
+			Description = "Universal Mod Menu for ACS 1.7.5",
+			Image = GetImage("PrivateACS", "https://i.imgur.com/VFdn5p4.png")
 		}
 	}
 	
