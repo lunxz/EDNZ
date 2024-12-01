@@ -1,5 +1,1988 @@
---[[
-Creds to the Dev and also Fisch ur not getting the source :)
-]]--
+-- Gui to Lua
+-- Version: 3.3
 
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _CTPBbRdiKvMp = a; end)); return(function(o,...)local f;local t;local z;local d;local l;local a;local e=24915;local n=0;local u={};while n<896 do n=n+1;while n<0x242 and e%0x18de<0xc6f do n=n+1 e=(e+584)%41472 local h=n+e if(e%0x1298)<=0x94c then e=(e*0x2cd)%0xae94 while n<0x1b6 and e%0x37b0<0x1bd8 do n=n+1 e=(e-857)%42096 local f=n+e if(e%0x3eb4)<=0x1f5a then e=(e+0x39b)%0x8362 local e=17902 if not u[e]then u[e]=0x1 t=string;end elseif e%2~=0 then e=(e-0x294)%0x8148 local e=11336 if not u[e]then u[e]=0x1 a={};end else e=(e-0x1b2)%0x4d4 n=n+1 local e=18063 if not u[e]then u[e]=0x1 d=function(u)local e=0x01 local function n(n)e=e+n return u:sub(e-n,e-0x01)end while true do local u=n(0x01)if(u=="\5")then break end local e=t.byte(n(0x01))local e=n(e)if u=="\2"then e=a.FIhrRBFC(e)elseif u=="\3"then e=e~="\0"elseif u=="\6"then l[e]=function(e,n)return o(8,nil,o,n,e)end elseif u=="\4"then e=l[e]elseif u=="\0"then e=l[e][n(t.byte(n(0x01)))];end local n=n(0x08)a[n]=e end end end end end elseif e%2~=0 then e=(e-0x315)%0x3e76 while n<0x3ac and e%0x43f4<0x21fa do n=n+1 e=(e+270)%26620 local d=n+e if(e%0xd98)<0x6cc then e=(e+0x12)%0x7a00 local e=83831 if not u[e]then u[e]=0x1 l=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x325)%0x5271 local e=56419 if not u[e]then u[e]=0x1 end else e=(e*0x17d)%0x8f34 n=n+1 local e=20739 if not u[e]then u[e]=0x1 l=(not l)and _ENV or l;end end end else e=(e+0x1cb)%0xb05 n=n+1 while n<0xbe and e%0x2810<0x1408 do n=n+1 e=(e*636)%39510 local l=n+e if(e%0xe46)<=0x723 then e=(e+0x1fd)%0x2b22 local e=36015 if not u[e]then u[e]=0x1 f="\4\8\116\111\110\117\109\98\101\114\70\73\104\114\82\66\70\67\0\6\115\116\114\105\110\103\4\99\104\97\114\71\112\104\72\84\112\68\104\0\6\115\116\114\105\110\103\3\115\117\98\97\77\110\80\103\88\104\71\0\6\115\116\114\105\110\103\4\98\121\116\101\70\79\98\68\90\103\118\111\0\5\116\97\98\108\101\6\99\111\110\99\97\116\82\85\83\108\85\112\98\66\0\5\116\97\98\108\101\6\105\110\115\101\114\116\101\83\121\108\77\77\89\110\5";end elseif e%2~=0 then e=(e-0x231)%0x89dc local e=60228 if not u[e]then u[e]=0x1 end else e=(e*0x26a)%0xa4a0 n=n+1 local e=29066 if not u[e]then u[e]=0x1 z=tonumber;end end end end end e=(e*767)%7838 end d(f);local n={};for e=0x0,0xff do local u=a.GphHTpDh(e);n[e]=u;n[u]=e;end local function h(e)return n[e];end local u=(function(f,d)local o,u=0x01,0x10 local n={{},{},{}}local l=-0x01 local e=0x01 local t=f while true do n[0x03][a.aMnPgXhG(d,e,(function()e=o+e return e-0x01 end)())]=(function()l=l+0x01 return l end)()if l==(0x0f)then l=""u=0x000 break end end local l=#d while e<l+0x01 do n[0x02][u]=a.aMnPgXhG(d,e,(function()e=o+e return e-0x01 end)())u=u+0x01 if u%0x02==0x00 then u=0x00 a.eSylMMYn(n[0x01],(h((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+t)%0x100)));t=f+t;end end return a.RUSlUpbB(n[0x01])end);d(u(195,"mnK5XwO#TQ_e?Nf2XK"));d(u(164,"n0%A1iz)-XIhQm96iQh9-)91A9X06%1)176QzXhm0QiImX0-zim)0mXz9i9Q1X0vi6hX%o)QhX00XQQ606-99iii1mIm)1m%%i-z9-AIXz9e1Q-Qm91Ihihs0%mhA-X%9i1zXhXiiXIX0-zAQ106)Xm-36X69i1)I%X-6-hm*m)QQQQi--mQAXI-6Q19-ig)imQi0miIImQQAw6A10IQE0iiQC_X)-Q009-1mX0z)69X1--X9)ihh9h10Ah9%X-A6B1)IzQAz0X6<XzAQ9%Ai6QAm&%Q6h10Ii+Qz1Q-sviQQm0-z%9zmzA0Qi1Ih9k%zIIQ%Qi1I9QQ%Q611hIh/-z%hi0zzhh6A0zH9h1AXh6IAI1*I0zQhi0%)-QmQIXi9I1-Xi6Ai)-I00i6Xm0Qi-m%Az%Q-IiiIIF-iihA0)zQh0%6)66%0iXiQ69Q1X0Oz9Q0%%-1mhAX)X9iAzI-6)1ii_I9))Qi%-)mm)11IiQX1mIQO01mI)CzPQzQA0-06s1yAX6zi-h)0A)%hz%0iQ91A)z660AA10"));local e=(-654+(function()local u,n=0,1;(function(e)e(e(e)and e(e))end)(function(e)if u>273 then return e end u=u+1 n=(n*99)%44381 if(n%844)>=422 then n=(n-598)%4345 return e else return e(e(e))end return e(e(e))end)return n;end)())local le=(getfenv)or(function()return _ENV end);local h=a.dMoczAeC or a.Bm_AdDbj;local l=2;local y=1;local d=3;local f=4;local function ue(b,...)local s=u(e,"8XJ,O{B#uSw:DUz6:::uXO#AD6,wuOzH,DUUB{D{X{#uuO0,#Uzw,BS66wFuu#XJ{UDDXSX,#6DuJOu J{S6RJ{6:zmU{uDuJXu{USJ,SX6D{uwS=w{6D#:,XBBuDOJGD,O#wu6uOU:{zBB6DuXDX{#iDDJuuOz0,DUB:O{,:2AuBODpBSUS,USzu6zUOOwi6DSzJB#XUSJUJ#uwUD,uSOOO:XJ+#u:,X6#Szv,{SCu:zuO0SD6u::XX#SDUD#JS#DUu,O3J{X::X,#{DzX:#Sz,DzJSu#zS,DSu6Ow,XX#DwwJ6uuUD,SwJu66JOOw-6Dw:XSuO:u,XuB6J,Uww-U6,{#wujOBH<-#Uz#,,Sz6X{O:O!{B#DJ:,XzBuDOJgDuO#S{6OJU:UXuB6DuJ##{UOf6S#6JOBw{666{{xwDIuBOD2UD6OXO,,S#zuOOw0OSDXJJ#SUS,XSzz{J#SUKU6,{OwuxOB>66#Szg,DuzzSO#w:S6XX{O:GHD:{,,u6zwJ:SS6,O:S:Xu#JD{JB#:z,XOSXzuOOwXtB,{DOJk#wB#DBXD#uUOSS6w{:wSXJ#g{::DXnBDDuBwzSO6wxU:{X:SWU/#BB:DXu#OX,S:6O{,:JD66S{O:vtDBuDOJg#DUu,#:BzDOuwO{ODOXSuJU:,6OuzwO6wz:uBSD,X{#BD:zWSHz4,Uw,wD,O:UXOBO#uJOuJU:JDSSz,{^wX7,{zBUw:!SB?:DXuzO,XS{6w{#O,wu6u{O:s{wU#,uuSzJOXS#6XBn:XX,Bz{6::XO#VDDSBzS{#,6S66O{9wD{?Uu,OuD:6,SwOu66JOOwr6D:zJB#6USX#uwzBO6SUPu6,{OwulOBZ;6#UzuOOS{6BO::,S66D{O:13Dwz,,uz6=U:,uSjzDOuzSBzUXJ{X#DSDDJuuOOu:R%DBOD,zB,#S,,J#Uz64JS#6{{DwDX{{zDUJ##{UzJ:S,zz{)SU&JBO#wG:#,DUz:#DU{O#S{zDXX:,66Bw:UJWu*U:6,BBzuOUSS6zBq##XXBXD6JD#SzJ6:BSzuOOw:qBB##66{#BUuJ{uzUz,{S,6X,{w{Rz{U:6XSuJSw,OSSzXU6OSSO6KOD6wBSU JuuXU#,Xw)zUOuS,X+B#DBXX#,DUD#JD#DUu,OUX{WwD6OBXDzXS#:zJJUSuzDz,u{Su6O{jXO#DUu,}u6:J(,{66,{X:uFu#X:wzJ#,U:,{{,zO,Uw66U{O#SX:B#UJJ{uuzuO,{:Dz{G:{_XBBDuU6#zDU,}u{UUO:SSR,X::On{#ODXJ:uuS6,9S#6:Ozwu!#{{:OU:#{D{JSuwwBOiw{zUz:Suw_6D{uXDuOzR,uS#:w&:B#aB{XD,UBB:DS,fu2zS,JwX6:OS:J66B#DJJO#XUB,uOzU6O#wX:6{;wSX:BSD&z{u#U,,zSX6O{Ow6D#,w:DJXBUUJ,OO:z{,{w,0}OU:BD6,U:DXu#6Uw,:{,U,,Uwz6S,UwUXBB{D#JXuwwJ,DwXzSz#B#SD6u{O6{#UUUJUSgSDX:S{eJOz:#XJJjS6Jw#{zO,XOuzwO6wz:uBODJXX#{DU,{uSSu,wSS66{nwUgzB,#S:#XOBDDuJOU,O{:J6S6,{JwuPOBGrwu#zu,SSJrXz#{NSD6u{O6B#{U:JDB#UUO{SS:6O6:#XJBBD{X6u##,UzJuuOzW#zyU{U:DXMO:U,JzuJzX,:u,6XO::u7SB:DB:{XoBDDuJOukUD{uUO6XODwuCOBG:DXuwuX=J6S{zOOKSD{#S#nO{DwwJB#JzNOX#6=B,S:uw#X{{D:uXO:JO{OuD{Ozw:hBBU:UX:#UU#ziBu6XOuSuwDJDwSXB66{D:OXABDXXu#z6Ow,:Su6dODwu{uD{,OuD##U#JDuuzOu:eX#XS#X6#hDUD#OS#DUu,OU{{U:U.U#_#D.zu,UDJ6uS6JOSS6:u,::{X:BDDSzWuJz#OB{s66{uwSF,B{:SJM,aUJ,XS#zuO{wB6:XXO6DyHOBc:D{Uz{O{S{6u_OSXXX{SDhXSu.zXzOBJUUOXwu:3J6:w?{#ODX::,B#IDDJuDS{X:X+XBO#MzzBSDU,O,D::OBSXr3OUBOxBB:DwUOuSU:,USBwxOJwX>#{u:{XBB:uX:6Jn#OUTJDDD{S:J6UBD:UX6#wBSDOJH#DUu,OSh,wuuw# {{D:uXOzOJUuw6lO{,6wC6O{lwD{XUJ,,SEUSOJS,6Xz:OUw=6D{u6{#OUy/wSS6O{Rw#MJ6,ODwucOBE:6JX#OUTJDU:OSwD-X{:DuEOBUDwD#J##DUu,O6B{z:#XX{Jw,6wX##{DDJuuO,Ow{1DBR:{w6XMBODrXDz:,SwO?/{X:JP#B6{:::XZBDDuB#z6OwwD6S{zD=w:GuB :DXuDJ,XSSzUz#OuSD6u{OlOBUDwX:uSzHODSDSXzDOuwOT2{D:u2Ow6D6,UuOz(,DUwBS:SXuBDwUJzS1UUOBSBzUO:wS6,BX::Ju#SU:,BJ{umUD,uSO6xJDX#OOBX:DXu#OU<JDuuOuu}S6JO{O:rbDwU,{S{z{Ou{OzXBXwSXbBSU+,X,O:JJUSX6upl#6(w{{DOXXJuDwJ6uzSu,DSS6,{bwSXJXDD:JS#,D6JUS#6,6U,SSO6lODwuAOur,z{u##U#JDuuzOS#-XBO:#X6#SDUD#J{#DUu,Oz{,a:XXX,J{6:zXO#QDDBSzuOOS_6S{B{,::xuBOD=B{zD,SSUwDJD:SXWBuDXX##Xzm,#SBu,zK,uSO6%SFES#BD::6JA#OUKJDU:{SwJ6dBXDuXD#XB:DSJW#DUuSUCO{X:{X#I,BB:uXO#QJ5uU6D{O#6I#BI:6Xz,:B#D:XD#uUO#D6XOz:uz,B:DBJuuJU:,OJ#SOUD,uSO,{:UXUBUU7UDBzz,,Du6zS{JwS66XuS:X{#:DDJSJ,uOUu,OSs,D:#X#BSUfJXu,UzD6OBuOz?,DUz{UD,XOJuw:JXuSUU6O##zX,XBO.u{UD:UO#JUXJUSJwHOuw#6{{O:XfD,JB,DXXu#OU&uQ6cOSwUaX6:#::5MDBuXuuuz{O:{O6B{{:OrSJKU,XSu#Sd,DSw6,{OwX6:Bu:{XEJuU:JSStz.6O#U6:{#:J6,BX::UOBBS6D:,}uxUD,uU#BJ:XeS#uD{X,uXzJ,OS:66z{OYSD6u{O:}+D#DiOJ,SJUu,OS-JzwS+#B:D,Jwu,z{,wuDUu{JSUtBB#D=+U#wDSJz#66XU#,OuDzuOOXJB::DJ#X,#BDuJOuLJ,SUFuO,:XXw#wDSX6#U##UwJDuuzOwDa:{S:uJ,ukUwJUuzz,U:,6S9zDOuz:B{Ub6:#DUS,uuD6BO{wwS:6w{FwD*u:OJXuzUUOJwOu66XOOw=6DwDXSuuzeXOu{zJOXwOS#6#ODwu^OwXX6uwzU,DS{z:z#{sSD6u{O6{#UUUJUSkSDXwS{6SBqBuz##J:UJD#S#PU,JuuOz_,USu6O{tw6XwBOD_XDDSOSSX6u{X:uXSXDSwX{#SzszuB#6J,UwD6S63ODwugOB9DJXu#OUFJDD#zOOtSD6u{O:./DBuUOJc#DUu,{S.zUOuwO^B{D:uXO#XDDJuuO6J{OSu6{{NwUYuBODZXD#DUO,HuDzwOOwX6D{u::XHBDDuJ{u%UD,uSD6WODwua{B*:DXu#OUWJDuuzOOXSD6u{O:*=DBuUuBj#6Uz,OS9zDSu%{#JDXJBuu#,UuJuuOzH#6%#BB:zXX#w:BJXuhzXOSw,u6zDOOw%6DwU6u#SUSD:JDupUD,uUU{z:6XDB{DzX6#U##UuJDuuzOS{z{,:D,JJ#wDU,BJ,#6Uu,OSd{wwUX:?X{D:uXO#-UuJuuOz/OzDX6O{XwD/zBODRXDSuUz,WuUzuO{w0yO{uDBJuBDDwJOu#UD,uSO6g{Xwug{B2:zXu#BUZ,zSXzOOJSD6U{O:etDuuUGJq#zUu,BS!6OOu:BZ#{D::XO#XDDJuuO6J#uSu6u{swz7uBODYXDuOUO,JuDzDOOwJ6DBu:wXjBUDuJuunUz,uwO6DODwSmOB,:DXu#OUi,XuuzOO2SU6u{O: XwBuDOJ/#6UD,OSKzDSBy{BUDX::X:#IDDJuUOODSUXX{SDJX6K:#JD!XD#uX#SuzU{ww{Q,#.:UJB{XUAJDuSzOU6{/SO6^ODzU#BUJJ:uwwz69ud6#{,wD:DBBD,JOJDDz,,S{zw,D{O:UWDO:wUtG{D:u{#UuJUSwz{O,:t6UBB{,:B_uBODoB,UUOuu,6X{w:wqS{6:U:#XOBDDuJOU#,UwX<u6,{XwuiOBWJD#SUUOJS6u:z6O2SD6uwAX6B6DS,W#qzu,SwU6{{zO:wD&W{D:u{BUXJ6S,6OOXS6E,6#{OwDvuBOJ##Uz{,S,,SXzuOOwFBDDwXU#zzWD:JwuWUD,uzO{X:zyU#JUO:6J,#OUGJDD6OS:OU6Bq:UXD#^UwJSuz#UUu,OSQzD#JwO*N{DDwB:#iDUJuu6z.,DSuXO{OwDfSBODXXD#zUOOJwSzuO#w 6z{u:OXPBDzOJOuXUD,:SO6JODDuXzB1:UXu#{UA,{uuaO{:SD6w{O:XCDBUDOJBuBUu,BSj6{Ouw{P;{D:uXuSBDDJuuOzS,DSS6O{OUJ*uBOD3Ju#uU{,AwDXDOOwJ6D{S:OX,BDzu{,u9Uz,uSB6e{,wu*OBX:DXw#OUJJDuwzOBqUF6u{#:ATUBuDzJtuznz,OSOzD{ewOZ={DUuXB#hUXJuuBzLOwSu6O{#wDEUBODBXD#uUO,bwSzuOuwn6D{u:wXf#nD:JOu!UDOzSO6XODDu,uBpD{Xu#DUtJUuuzw#3SD7X{ODBQDBSDOJR#DUD{wSQzDOu:w&p{U:uXOuODDJuuOzX,DSu6O{B:U(uBuDAJz#uU{,PuzzuOuDB6D{u:OJJBDDSJOSJzB,uSu6b{OwuPOBTUDO##OU{JDu:zOOzSD6u{B:;XXBuDwJ=#DUu,OSzzDODwOsh{D:zXO#Oz3JuuOzN{zSu6{{&DD,DBODSXDu_UO,XuDzz#Ow)*{{uUBXrBUDuJOuaz%{zSO6yODDw)OBX:DJuUXUe,Ouu6XOVSz6u{ODOEDBuDOJX#DUu,OSB6UOuwufn#S:uX{#<DzJuuu7B,DSu6OBUwD&SBOUJJB#uUu,VSuzuOOweiz#u:OX{BDDDJOuNUD,uS:6>{JwuHOBR:DXu#OzXJDuUzOO{SD6z{O:7J{BuDuJQ#zUu,{S?zDB,wO3R{D:SXO#IDDJSuOz7,DS:6z{1wDcuwBJXu{zD6O#,6zOS:u3{6D{u:OXbBDDzJOuhUD,uU,6oODwuiOBg:DXu#OzuJDuuzOOXSD6S{O:eX,BuDOJC#UUu,OSA6z{uwOxX{D:SXO#MDDJuSBz.,DSu6B{4wU9uBOUOXD#uUO,XuDzuOOwX6D{u:OX,#uDuJOuqX6SSLB{J::XBJOw,Jz#Szu,{JDuuzOO-SD6z{O:3ZDBue,J=#DUu,OS zDOuwO_O{D:uXO#XDDJSuOzgO6Su6O{awU&uBODMJzuBUO,XuDzSOOwF6D{uDwX?BDDuJBuVUU,uSO6:ODwufOBX:DXu#OUwJDuuzOO,wB6u{O:2{,DU,u#,zXOwww6SO6wUw#Z#{D:uXOD9,uuS6UO{wzk:6#{:wD0uBOCDu:U:,{SDUD{Ow{XSBXDw:#XuBDDuJODJ,US:66B-wUF:B6B,D{Xu#OUvB660O{:J6U{:DuX{#zB:DSJY#DUuwO6X{{:wX#4,BK:uXO#_J,uSzU{O,6wB6O{IwDO:DDJXuzUS,#wO6X{wu{2OBs:UXuX,#GDuJOuRO,SSGX{{O6:BROBm:D{zUU,zS-DzOU:JY6BDS#Xu#{UOJuJ4#DUu,OSIXOOuwO;)Bz:DXO#cDD,XuOzK,D:uYU{>wD<uBOD3XU#uzB,wuDzwOOwJ6D{u:OXV#:DuJOufUz,uSB6.BDwz=OB9:DXu#OU,JDwu6DO-SU6u{O:0XXBuDw,X#DUS,OS:zDOSwOnX{D:D,w#jDDJuu6zq,USuXOuOwDsSBOD>XDugUO{b::zuO{w&6U{u::X+BDDSJOuXUD,wSO6JODDu,uBc:zXu#OU0,luu6BOwSD6:{O:B4DBuDOJ/DBUu,uSHzDOuwO^H{DUJXO#,DDJwuOz{,DSDXw{iwDEu#wDNXU#u6O{6uD62OOwX6DBJ:OXk:zDuJzu&z,,uSO6RODHu9OBu:DJJ#OUJJDuzz6OIwO6uBw:olUBuDOJ4uW6z,OSRzD{zwOGX{D:uJu#HDDJuu{z5,DSu6wBXwDy:BOU^XD#SUO,JuDzDBwwy6D{uDOXqBUDu,BuwUD,:SO6BODwulOBK3BXu#uUGJDuuzOOiSDXJ{O:,TDBwDOJ{#DUD{wSMzDOuDS_l{U:u,OS6DD,5uOzJ,DwJ6O{I6zxuBzDVJ,#uUO,AuDOuOOwu6DBJ:OXJBDDzJ6uozO,u:S6;OUwuyOBQDA,z#OU!JDwUzOOXSD6uSz:/XOBuD{J^#DUu,OzJzD{XwOo#{D:uXO#KzUJuuDzM,zSu6{{*wDXDBODTXD#SUO,FuDzz{{wE66{uU?XnBUDuJBu zn{zSO64ODDOlOBX:DXuuuUqJDuuz{O;SD6u{{:AGDBuD#Jz#DUu,OzB{::O;#BXDwJX##S_X,uU6,OOwXSu6O{lwDfuBwDeXD#uUOB6uDzuOOwN6D{u:OXM#wDuJOu%UU,uS{6=OD::bOBF:DXS#OU*JDSwz6O_SU6u{{:enDBuDOJB#DUu,OSJzDOSwOfE{6:uXO#xDUJuuOzE-{Su6O{gwDX{BOD0XD#SUO,7uD6wOSwb6D{uDBXRBDDu,BSOUD,uSOXDODwuCOuBDDXu#OUI,Juuz{O<6G6u{uUBvDBuDOJB#DUS,OSOXJOuwO7 B,:uX{#IDD,DuOz),DSS6O{ZwDXwBzD=XD#uJz,HuDzu{BwQ6D{S:OXuBDDuJOw4z#,uS{6_OUwuX6B0DzJ:#OU,JDw:zOO9SD6u{B:AoUBuD#J)#DUu,OwOzDOuwO(N{D:wXO#=UuJuuOz ,USu6B{!:zJ,BODXXDUJUO,!uD6wOOw!6z{u:DXTBDDuOOuOUD,wSO6JODD,!O#JDdXu#uU.{%uuzOO/SD6S{O:J&DBDDOJW#DUu,BSrzUOuwO!i{z:uXO#6DDJSuOzX,DSw6OBJ:wWuBBDd#B#uUO,FSz6JOOw,6DBx:OX_BDzu{,uEU6,uS#6PB#wuXBBu:DXU#O6_JDuuzOO1wU6u{#:fXXBuDOJH#Dz,,OSJzDOuwO-J{D:uXw#yDzJuu{zx,zSuXO{uwD_:BODLXDDUUO,ZuzzuOSw.6D{u::XVSDUuJOu{UD#OSO,wODUu{SB<DXXuD)UA{SuuXOB#SD6U{O6aEDwDDO,Ju#Uu,wS%,OOuwOYV#DU5XO#BDDJzuO6D,Dww6:{^:,ZuwwDHXD#uzB,SuD6?OOw66D{u:OXk#JDuJwu}zO,uSB6y{D:6-OB{:D,z#OUBJD:u,SOpwX6u:J:EXBBu6OuJ#DUU,Oz,zDS,wOXJBz:uXw#/z:JuuOzv{D:X6O{BwDmzBO62XDSuzD,_SJzuOwwmO:{uDOX{BDDUJOS}UD,zSO6){rwuG#B}DXXu#BUkJDSwzOOOSD6u{O:JtDuu6,JTuXUu,#SE,{OuwOJw{D:6XO#%DDJwuOXsOUSu6:{(zu;uBSDrODuDUO,#uDXBOOUS6D{u:wXK#XDuJ:uxUz,uwO6DODwD%OB{:DXU#O6E,XuuzSO<S66uSU:cMD#XDOJ##DUu,OSJzD#u6S)ZB,:u{k#izSJu:O6 ,DS66O#zwDO{BODs,##uUS,yS,zuOBwrgD#Y:OXOBDz{JOu{UD,wDS6&{Xwu*{B*:DXuSOXXJDuzzOOOSD6U{OULXJBuDwJ>uJUu{BSxzD{BwO5u{D:uXO#JDD{uSUzrOOSu,T{E6,7uSOD,XDujUOBzuD66OOwQ66{u:wXH#ODuJ{usUD{,SO6BODwu*OB5:DJw#zU-,,uu6DOWSD6uBB6SHD#.DOJu#DUu,O:76XOuwDa?BO:uBU#4Uz,OuOzw,D:S6O{owD*uBSDbJO#uUz,>uzzuBO:}6DB;:OXuBDUXJOwazS,uSD6i{Owu{XBhUDJz#OUuJDSYzOSuSDXuu,:}XOBuDDJ5U#Uu,OSJzD{KwOZS{D:uXO# UzJuu:z_,DSu6U{d:mXuBOD*XDDDUO,XuD6wOzwGHu{uzwXiBDDuOOD:UDOOSO6DOD::COB)D{XuuXU5,JuuzOOj:DhJ{O:zND#,DO{6#DUuOUSN6uOu:JL_{U:uXwuXDDJ6uOJ6,DSS6O{JwDLDuwDtXD#uJ,,RuUzuOBU{6D{6:OXJBDDuJOuB6#,uSD6_{XwuW{BC:zXu#OzBJDuuzOOBSD6u{O:pJJBuDOJHu,Uu,OSR!D#OwO4S{D:DXO#{DDOuSzztO{Su6U{4zOnuBOUJXDu,UO,(uDz:OOURl,{u:6XWwuDuu,u_AD{,SO6:OD:{COS,:DXzu6UQ,uuuz#OeSU6u{B:W1D#zDOJl#DzL,OS)zDOu:wCN{D:uX:#CDDJuSOX:,Dw,6OBXwDXOBODR,,#uUU,_S#zuO{w%XD{D:OXSBDDDJOu{UD{uw:6a{{wu*UB56OXu#OU,JDS,zOO>SD6:{OzYX,BuD6J3:uUuuOS9XD{uwO(:{DD{XOwXDDJzS6zbOuSu6w{=wUYuBBD1XDuzUO,HuD6nOOwk6D{uDwX^BDDuJ:u3UD,uwOJ:OD:,pO#X:DJO#OU&JzuuzUO}w#6u{{:4JDuXDOJS#DUD,OS{zDBuwzq2B{:uXU#2MOJuuO6{,Dw,6O{pwD9:BO6cJ{#uU6,>DuzuO{w%JDBD:OX:BDU{JOw{UD,zw665{uwuKuBm:UXu#BUjJDSzzOO4SD}n{O:f<DBuUwJ(#DUu,:SIzDOu:O,:{DD,XOuXDD,OuOz/O6Su6U{2:#huB{D>,Du6UO,SuDzDOOw{6D#uU XZ#{DuJUueXO,uSO6,OD:,GOB-:DX:#OZQ,uuuz6OVUu6uuB:&,Du?DOJ:#Dz{,OU{zDOz:6l_Bu:uXO#3DUJuuBzp,Dwz6O{gwDX<BOD_XD#uzw,-uDzuO:wG6D{uDO{BBDU,JOSXUDOOSO6+{Uwu<UBKD#Xu#{Ud,zwJzOOSSDJ6{O:xdDuuU{Jsu{Uu,US?hBOu:BXU{DDJXODUDDJuuOz;OvSu6U{kwz5uBBD^Jz#wUO,wuD,7OOwM6D#uzuXK#BDuJzu.6B,uwB,{OD:,+O#B:DXu#OzJ,uuu63OeUX6u{O:AXz#SDOJU#Dzz,OS-zD{ww:AIBw:u,6#(DDJuuO6D,DwJ6O{zwD3wBOUx,B#uUU,5:JzuOzwZ_zBX:OXwBDX&JOu}UD{uDu6m{BwuRzB UBXuuBU6JDS,zO{BSD6u{ODJX{BuUbJdUJUu,OS+6zO:wOhU{D6SXO#PDD,wuSz}OwSu6u{ywDMuBOUJXDuJUO,zuDzwOO:b6U{u:UXR:UDuJzut9DOOSO6SOD66<OwX:DOuDSUY,{uuX,O_zB6uBB6#;D#JDO,{#DUu,O:<6JOuwz)WBB:uO6#eUzOJuOz:,DU:6O{4wDXwB:D>Ju#uX#,%uDzu{B:w6DB{:O{,BDDuJOuIzD,uSz6j{Swu;BBZDDJD#OUSJDUBzOOwSDJuwS:FX{BuD:J7uBUuOBUDzD{JwOX6{D:uXOSHDUJuuzzdOBSuXJ{ADDJjBODwXDuJUO,,uD6uO:w9f{{uUJXk#BDuOOuUUDOJSO6,ODwziO#RU,Xu#UURuuuuzzOpSDWw{O:wiDBUDOJl#DUuuBS36#OuwUC>{D:uXODODD,JuOzJ,DSS6O#n:DLuBzD>XU#uz-,)uD4;OOwD6D{u:OXxBDDuO}uWzB,uwI6lOUwuJOBB:DJJ#OUJJDSOzOO1:K6uBj:PGDBuDOJ&#DUD,OSwzD{OwOtX{DUuO,#YUBJuu{z),zSu6OB6wDXJBODJXD#SUO{)SzzuOzwp6z{u:6XW#zU,JOuDUDODSO6%ODwuXDBWDBXuuxUlJUuuVO{USD=J{O:XMD#,DO,JS#UuO!S=XOOuwOdP{DDBXO#wDD,OuOzX,D:uJ,{7:BVuBBDi{z#u6OuuuD6OOOwO6D#{:OX!#zDuJzukzu,uS{6CBD:J*OBw:DXS#O6SJDwuzBOywu6u{u:(JSBuDO,U#DzJ,OSDzDOSwOJ_#B:uXz#<D6Ju:zzEOz:O6O{DwDOSBOD*XD#u6S,<SBzu{*wK6U{uUO,:BDUJJOuXUDOBSO6nB_wurzB7:zXu#{UKODSUzOOwSD6u{OU#aDBuUJJEuuUu,OS9z6OuUOcz{DDOXOwDDDOXuOXM{SSu?N{3zw^u:BD%ODSJUO,DuDXDOODw6D{uUSXc#BDu,Nu1UU,uSOyOODwu_OBX:DXu#O");local n=0;a.MIxOCVQe(function()a.pxTTiXFn()n=n+1 end)local function e(e,u)if u then return n end;n=e+n;end local u,n,r=o(0,o,e,s,a.FObDZgvo);local function t()local u,n=a.FObDZgvo(s,e(1,3),e(5,6)+2);e(2);return(n*256)+u;end;local c=true;local c=0 local function k()local e=n();local n=n();local d=1;local l=(u(n,1,20)*(2^32))+e;local e=u(n,21,31);local n=((-1)^u(n,32));if(e==0)then if(l==c)then return n*0;else e=1;d=0;end;elseif(e==2047)then return(l==0)and(n*(1/0))or(n*(0/0));end;return a.fAgamiJA(n,e-1023)*(d+(l/(2^52)));end;local p=n;local function _(n)local u;if(not n)then n=p();if(n==0)then return'';end;end;u=a.aMnPgXhG(s,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+c),#u do e=e..a.aMnPgXhG(u,n,n)end return e;end;local c=#a._uHwsorV(z('\49.\48'))~=1 local e=n;local function de(...)return{...},a.yAileUSV('#',...)end local function ne()local o={};local s={};local e={};local z={s,o,nil,e};local e=n()local h={}for l=1,e do local u=r();local n;if(u==2)then n=(r()~=#{});elseif(u==1)then local e=k();if c and a.gehCwagf(a._uHwsorV(e),'.(\48+)$')then e=a.ZiHtkGmS(e);end n=e;elseif(u==3)then n=_();end;h[l]=n;end;z[3]=r();for e=1,n()do o[e-(#{1})]=ne();end;for z=1,n()do local e=r();if(u(e,1,1)==0)then local o=u(e,2,3);local r=u(e,4,6);local e={t(),t(),nil,nil};if(o==0)then e[d]=t();e[f]=t();elseif(o==#{1})then e[d]=n();elseif(o==b[2])then e[d]=n()-(2^16)elseif(o==b[3])then e[d]=n()-(2^16)e[f]=t();end;if(u(r,1,1)==1)then e[l]=h[e[l]]end if(u(r,2,2)==1)then e[d]=h[e[d]]end if(u(r,3,3)==1)then e[f]=h[e[f]]end s[z]=e;end end;return z;end;local function ue(u,e,n)local l=e;local l=n;return z(a.gehCwagf(a.gehCwagf(({a.MIxOCVQe(u)})[2],e),n))end local function b(g,c,z)local function ue(...)local t,k,m,ne,s,n,r,ee,_,j,p,u;local e=0;while-1<e do if e<=2 then if 0<e then if e==1 then m=o(6,80,3,52,g);s=de ne=0;else n=-41;r=-1;end else t=o(6,94,1,8,g);k=o(6,47,2,10,g);end else if 5>e then if 1~=e then repeat if e~=4 then ee={};_={...};break;end;j=a.yAileUSV('#',...)-1;p={};until true;else ee={};_={...};end else if e>=2 then repeat if e<6 then u=o(7);break;end;e=-2;until true;else u=o(7);end end end e=e+1;end;for e=0,j do if(e>=m)then ee[e-m]=_[e+1];else u[e]=_[e+1];end;end;local e=j-m+1 local e;local o;local function _(...)while true do end end while true do if n<-40 then n=n+42 end e=t[n];o=e[y];if 48>=o then if 24<=o then if 36>o then if 30<=o then if 33<=o then if 34<=o then if 30<=o then repeat if o>34 then u(e[l],e[d]);break;end;local e=e[l]local l,n=s(u[e](u[e+1]))r=n+e-1 local n=0;for e=e,r do n=n+1;u[e]=l[n];end;until true;else local e=e[l]local l,n=s(u[e](u[e+1]))r=n+e-1 local n=0;for e=e,r do n=n+1;u[e]=l[n];end;end else local e=e[l]u[e](u[e+1])end else if o<=30 then local o,z;for r=0,6 do if r<3 then if 0<r then if-2<=r then repeat if r>1 then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];until true;else o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];end else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end else if r>=5 then if 2<=r then for o=13,71 do if 5<r then u[e[l]][e[d]]=e[f];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if r>=1 then repeat if r>3 then u[e[l]]={};n=n+1;e=t[n];break;end;o=e[l];z=u[e[d]];u[o+1]=z;u[o]=z[e[f]];n=n+1;e=t[n];until true;else u[e[l]]={};n=n+1;e=t[n];end end end end else if 32>o then local o,r;for z=0,6 do if z<3 then if z<=0 then o=e[l]u[o](u[o+1])n=n+1;e=t[n];else if z>-1 then repeat if z~=1 then u(e[l],e[d]);n=n+1;e=t[n];break;end;o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];until true;else u(e[l],e[d]);n=n+1;e=t[n];end end else if z<=4 then if 0<z then for a=21,98 do if z~=3 then o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];break;end;o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];break;end;else o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];end else if z~=5 then o=e[l]u[o](h(u,o+1,e[d]))else u(e[l],e[d]);n=n+1;e=t[n];end end end end else local r,o,h;u(e[l],e[d]);n=n+1;e=t[n];u[e[l]]=u[e[d]];n=n+1;e=t[n];r=e[d];o=u[r]for e=r+1,e[f]do o=o..u[e];end;u[e[l]]=o;n=n+1;e=t[n];h=e[l]u[h](u[h+1])n=n+1;e=t[n];do return end;end end end else if o<27 then if o>24 then if o~=23 then for n=29,64 do if o~=25 then local n=e[l]local d={u[n](u[n+1])};local l=0;for e=n,e[f]do l=l+1;u[e]=d[l];end break;end;local e=e[l]u[e]=u[e](h(u,e+1,r))break;end;else local e=e[l]u[e]=u[e](h(u,e+1,r))end else u[e[l]]();end else if o<28 then local r=k[e[d]];local h;local o={};h=a.FSadIKcj({},{__index=function(n,e)local e=o[e];return e[1][e[2]];end,__newindex=function(u,e,n)local e=o[e]e[1][e[2]]=n;end;});for l=1,e[f]do n=n+1;local e=t[n];if e[y]==22 then o[l-1]={u,e[d]};else o[l-1]={c,e[d]};end;p[#p+1]=o;end;u[e[l]]=b(r,h,z);else if o>=24 then for r=43,81 do if 28~=o then local r,z;for o=0,6 do if 3<=o then if o>4 then if o>1 then for h=37,94 do if 5~=o then u[e[l]][e[d]]=e[f];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if 1<=o then for h=22,77 do if 3~=o then u[e[l]]={};n=n+1;e=t[n];break;end;r=e[l];z=u[e[d]];u[r+1]=z;u[r]=z[e[f]];n=n+1;e=t[n];break;end;else u[e[l]]={};n=n+1;e=t[n];end end else if o>0 then if-2<o then repeat if 1~=o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;r=e[l]u[r](h(u,r+1,e[d]))n=n+1;e=t[n];until true;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end end end break;end;local l=e[l]local d={u[l](u[l+1])};local n=0;for e=l,e[f]do n=n+1;u[e]=d[n];end break;end;else local r,z;for o=0,6 do if 3<=o then if o>4 then if o>1 then for h=37,94 do if 5~=o then u[e[l]][e[d]]=e[f];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if 1<=o then for h=22,77 do if 3~=o then u[e[l]]={};n=n+1;e=t[n];break;end;r=e[l];z=u[e[d]];u[r+1]=z;u[r]=z[e[f]];n=n+1;e=t[n];break;end;else u[e[l]]={};n=n+1;e=t[n];end end else if o>0 then if-2<o then repeat if 1~=o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;r=e[l]u[r](h(u,r+1,e[d]))n=n+1;e=t[n];until true;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end end end end end end end else if o<42 then if o<39 then if 37>o then z[e[d]]=u[e[l]];else if 34<o then repeat if o~=38 then local n=e[l]u[n](h(u,n+1,e[d]))break;end;n=e[d];until true;else local n=e[l]u[n](h(u,n+1,e[d]))end end else if o<40 then local r;for o=0,6 do if o<=2 then if o>=1 then if o~=-1 then repeat if 2>o then u[e[l]]=z[e[d]];n=n+1;e=t[n];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];until true;else u[e[l]]=z[e[d]];n=n+1;e=t[n];end else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if o<=4 then if 4~=o then u(e[l],e[d]);n=n+1;e=t[n];else u(e[l],e[d]);n=n+1;e=t[n];end else if 2<=o then repeat if o<6 then r=e[l]u[r]=u[r](h(u,r+1,e[d]))n=n+1;e=t[n];break;end;u[e[l]][e[d]]=u[e[f]];until true;else u[e[l]][e[d]]=u[e[f]];end end end end else if 38<o then for h=11,80 do if 41>o then u[e[l]][e[d]]=e[f];break;end;local h;for o=0,6 do if 3<=o then if o>=5 then if o>1 then for h=33,97 do if 6>o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;u(e[l],e[d]);break;end;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else if 1<o then for f=46,62 do if 4>o then h=e[l]u[h]=u[h](u[h+1])n=n+1;e=t[n];break;end;u[e[l]]=z[e[d]];n=n+1;e=t[n];break;end;else h=e[l]u[h]=u[h](u[h+1])n=n+1;e=t[n];end end else if o>=1 then if o>=-1 then for h=21,89 do if o~=2 then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;u(e[l],e[d]);n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else u[e[l]]=z[e[d]];n=n+1;e=t[n];end end end break;end;else u[e[l]][e[d]]=e[f];end end end else if 45>o then if 43<=o then if o~=39 then for h=43,64 do if o>43 then local r,h;for o=0,4 do if o<=1 then if 1>o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];else r=e[l];h=u[e[d]];u[r+1]=h;u[r]=h[e[f]];n=n+1;e=t[n];end else if 3<=o then if o>-1 then for h=22,97 do if 3<o then u[e[l]][e[d]]=e[f];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];end else u[e[l]]={};n=n+1;e=t[n];end end end break;end;local o,r;for h=0,6 do if 3<=h then if h>=5 then if 5<h then u[e[l]][e[d]]=e[f];else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if 3==h then u[e[l]]={};n=n+1;e=t[n];else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end end else if h<=0 then o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];else if-2~=h then repeat if h>1 then o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];break;end;o=e[l]u[o](u[o+1])n=n+1;e=t[n];until true;else o=e[l]u[o](u[o+1])n=n+1;e=t[n];end end end end break;end;else local r,h;for o=0,4 do if o<=1 then if 1>o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];else r=e[l];h=u[e[d]];u[r+1]=h;u[r]=h[e[f]];n=n+1;e=t[n];end else if 3<=o then if o>-1 then for h=22,97 do if 3<o then u[e[l]][e[d]]=e[f];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];end else u[e[l]]={};n=n+1;e=t[n];end end end end else local o,z;for r=0,6 do if r<3 then if 0<r then if r~=-2 then repeat if r~=1 then u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];until true;else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else u[e[l]]={};n=n+1;e=t[n];end else if 4<r then if r~=1 then for h=36,68 do if 5<r then u[e[l]]={};break;end;o=e[l];z=u[e[d]];u[o+1]=z;u[o]=z[e[f]];n=n+1;e=t[n];break;end;else o=e[l];z=u[e[d]];u[o+1]=z;u[o]=z[e[f]];n=n+1;e=t[n];end else if 3==r then o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end end end end end else if 46>=o then if 46~=o then u[e[l]][e[d]]=u[e[f]];else if not u[e[l]]then n=n+1;else n=e[d];end;end else if 45~=o then for t=29,53 do if o~=48 then local n=e[l];local l=u[e[d]];u[n+1]=l;u[n]=l[e[f]];break;end;if(u[e[l]]==u[e[f]])then n=n+1;else n=e[d];end;break;end;else local n=e[l];local l=u[e[d]];u[n+1]=l;u[n]=l[e[f]];end end end end end else if 12<=o then if o<18 then if 15>o then if 13<=o then if 12<o then repeat if 13<o then u[e[l]]={};break;end;for o=0,3 do if o>=2 then if o>=-1 then repeat if o~=2 then if(u[e[l]]==e[f])then n=n+1;else n=e[d];end;break;end;u[e[l]]=z[e[d]];n=n+1;e=t[n];until true;else u[e[l]]=z[e[d]];n=n+1;e=t[n];end else if o~=1 then u[e[l]]=(e[d]~=0);n=n+1;e=t[n];else z[e[d]]=u[e[l]];n=n+1;e=t[n];end end end until true;else u[e[l]]={};end else if not u[e[l]]then n=n+1;else n=e[d];end;end else if 16>o then local r,c,z,a,s,o,b;o=0;while o>-1 do if o<3 then if 1>o then r=e;else if o~=2 then c=l;else z=d;end end else if 4>=o then if-1<=o then for e=26,85 do if 4~=o then a=r[z];break;end;s=r[c];break;end;else a=r[z];end else if 6>o then u(s,a);else o=-2;end end end o=o+1 end n=n+1;e=t[n];o=0;while o>-1 do if 3<=o then if o<5 then if 4==o then s=r[c];else a=r[z];end else if 2<=o then for e=16,97 do if o~=5 then o=-2;break;end;u(s,a);break;end;else u(s,a);end end else if o>0 then if-3<o then repeat if 1~=o then z=d;break;end;c=l;until true;else z=d;end else r=e;end end o=o+1 end n=n+1;e=t[n];o=0;while o>-1 do if o<=2 then if o>0 then if o~=2 then c=l;else z=d;end else r=e;end else if o>=5 then if o<6 then u(s,a);else o=-2;end else if-1~=o then repeat if o~=4 then a=r[z];break;end;s=r[c];until true;else s=r[c];end end end o=o+1 end n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];b=e[l]u[b]=u[b](h(u,b+1,e[d]))n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];u[e[l]][e[d]]=e[f];else if 12~=o then repeat if 17>o then local o;for r=0,2 do if 0<r then if-2~=r then for z=14,83 do if r<2 then o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];break;end;u[e[l]][e[d]]=u[e[f]];break;end;else o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];end else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end end break;end;local l=e[l];local f=e[f];local t=l+2 local l={u[l](u[l+1],u[t])};for e=1,f do u[t+e]=l[e];end;local l=l[1]if l then u[t]=l n=e[d];else n=n+1;end;until true;else local o;for r=0,2 do if 0<r then if-2~=r then for z=14,83 do if r<2 then o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];break;end;u[e[l]][e[d]]=u[e[f]];break;end;else o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];end else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end end end end end else if o>=21 then if 21<o then if o>=18 then repeat if o~=22 then u[e[l]]();break;end;local f,h,r,z,o,t;local n=0;while n>-1 do if 3<n then if n<=5 then if 0~=n then for e=25,66 do if 5~=n then o=z[f[r]];break;end;t=f[h];break;end;else t=f[h];end else if 5~=n then for e=23,53 do if 6<n then n=-2;break;end;u[t]=o;break;end;else u[t]=o;end end else if 1>=n then if n>0 then h=l;else f=e;end else if 3~=n then r=d;else z=u;end end end n=n+1 end until true;else local t,h,r,z,o,f;local n=0;while n>-1 do if 3<n then if n<=5 then if 0~=n then for e=25,66 do if 5~=n then o=z[t[r]];break;end;f=t[h];break;end;else f=t[h];end else if 5~=n then for e=23,53 do if 6<n then n=-2;break;end;u[f]=o;break;end;else u[f]=o;end end else if 1>=n then if n>0 then h=l;else t=e;end else if 3~=n then r=d;else z=u;end end end n=n+1 end end else if(u[e[l]]==u[e[f]])then n=n+1;else n=e[d];end;end else if o<19 then local f;u[e[l]]=c[e[d]];n=n+1;e=t[n];u[e[l]]();n=n+1;e=t[n];u[e[l]]=c[e[d]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];f=e[l]u[f](u[f+1])n=n+1;e=t[n];do return end;else if o<20 then u[e[l]]=(e[d]~=0);else do return end;end end end end else if o<=5 then if 3<=o then if 3>=o then local e=e[l]u[e]=u[e]()else if 2<o then for a=28,61 do if o~=5 then local o,r;u[e[l]]=z[e[d]];n=n+1;e=t[n];o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];if not u[e[l]]then n=n+1;else n=e[d];end;break;end;local e=e[l]local l,n=s(u[e](u[e+1]))r=n+e-1 local n=0;for e=e,r do n=n+1;u[e]=l[n];end;break;end;else local o,r;u[e[l]]=z[e[d]];n=n+1;e=t[n];o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];if not u[e[l]]then n=n+1;else n=e[d];end;end end else if 1>o then local o,c,p,k,b;for a=0,6 do if 2<a then if 4>=a then if 3<a then o=e[l]u[o]=u[o](h(u,o+1,r))n=n+1;e=t[n];else o=e[l]p,k=s(u[o](h(u,o+1,e[d])))r=k+o-1 b=0;for e=o,r do b=b+1;u[e]=p[b];end;n=n+1;e=t[n];end else if 5<a then u[e[l]]=z[e[d]];else o=e[l]u[o]=u[o]()n=n+1;e=t[n];end end else if 1<=a then if a>-2 then for h=34,69 do if a~=2 then o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];break;end;u(e[l],e[d]);n=n+1;e=t[n];break;end;else o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];end else u[e[l]]=z[e[d]];n=n+1;e=t[n];end end end else if-2<=o then for z=16,81 do if 1<o then local o,c,b,z,a;for c=0,2 do if c>0 then if c>-3 then repeat if c~=1 then n=e[d];break;end;o=e[l]a={u[o](h(u,o+1,r))};z=0;for e=o,e[f]do z=z+1;u[e]=a[z];end n=n+1;e=t[n];until true;else n=e[d];end else o=e[l]a,b=s(u[o](u[o+1]))r=b+o-1 z=0;for e=o,r do z=z+1;u[e]=a[z];end;n=n+1;e=t[n];end end break;end;local e=e[l]u[e]=u[e](u[e+1])break;end;else local o,c,b,z,a;for c=0,2 do if c>0 then if c>-3 then repeat if c~=1 then n=e[d];break;end;o=e[l]a={u[o](h(u,o+1,r))};z=0;for e=o,e[f]do z=z+1;u[e]=a[z];end n=n+1;e=t[n];until true;else n=e[d];end else o=e[l]a,b=s(u[o](u[o+1]))r=b+o-1 z=0;for e=o,r do z=z+1;u[e]=a[z];end;n=n+1;e=t[n];end end end end end else if 8>=o then if o>=7 then if 7<o then local o,b,c,a,k;for z=0,6 do if z<=2 then if z<1 then u(e[l],e[d]);n=n+1;e=t[n];else if 0<=z then repeat if z~=1 then o=e[l]u[o]=u[o](h(u,o+1,r))n=n+1;e=t[n];break;end;o=e[l]b,c=s(u[o](h(u,o+1,e[d])))r=c+o-1 a=0;for e=o,r do a=a+1;u[e]=b[a];end;n=n+1;e=t[n];until true;else o=e[l]b,c=s(u[o](h(u,o+1,e[d])))r=c+o-1 a=0;for e=o,r do a=a+1;u[e]=b[a];end;n=n+1;e=t[n];end end else if 4<z then if z>2 then repeat if z~=5 then u[e[l]][e[d]]=e[f];break;end;u[e[l]]={};n=n+1;e=t[n];until true;else u[e[l]]={};n=n+1;e=t[n];end else if z~=0 then repeat if 3~=z then o=e[l];k=u[e[d]];u[o+1]=k;u[o]=k[e[f]];n=n+1;e=t[n];break;end;o=e[l]u[o]=u[o]()n=n+1;e=t[n];until true;else o=e[l]u[o]=u[o]()n=n+1;e=t[n];end end end end else local n=e[l]local l,e=s(u[n](h(u,n+1,e[d])))r=e+n-1 local e=0;for n=n,r do e=e+1;u[n]=l[e];end;end else u[e[l]]=z[e[d]];end else if o>=10 then if o>8 then repeat if 10<o then if u[e[l]]then n=n+1;else n=e[d];end;break;end;u[e[l]]=z[e[d]];until true;else if u[e[l]]then n=n+1;else n=e[d];end;end else u[e[l]]={};end end end end end else if 73<o then if 85<o then if 91<o then if o<95 then if o>92 then if o~=93 then if(u[e[l]]==e[f])then n=n+1;else n=e[d];end;else u[e[l]][e[d]]=u[e[f]];end else local f;u[e[l]]=c[e[d]];n=n+1;e=t[n];u[e[l]]();n=n+1;e=t[n];u[e[l]]=c[e[d]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];f=e[l]u[f](u[f+1])n=n+1;e=t[n];do return end;end else if o<=96 then if o>=94 then repeat if o~=96 then u[e[l]]=b(k[e[d]],nil,z);break;end;local n=e[l]u[n]=u[n](h(u,n+1,e[d]))until true;else u[e[l]]=b(k[e[d]],nil,z);end else if 95~=o then for r=25,91 do if o~=97 then local o;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];u[e[l]]=z[e[d]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]={};break;end;do return end;break;end;else do return end;end end end else if 89<=o then if o<90 then local n=e[l]local d={u[n](h(u,n+1,r))};local l=0;for e=n,e[f]do l=l+1;u[e]=d[l];end else if 90<o then local l=e[l];local n=u[e[d]];u[l+1]=n;u[l]=n[e[f]];else if u[e[l]]then n=n+1;else n=e[d];end;end end else if 86<o then if 87==o then local o,a;for r=0,6 do if r<=2 then if 0<r then if r~=-2 then for h=24,71 do if 1<r then u(e[l],e[d]);n=n+1;e=t[n];break;end;o=e[l];a=u[e[d]];u[o+1]=a;u[o]=a[e[f]];n=n+1;e=t[n];break;end;else o=e[l];a=u[e[d]];u[o+1]=a;u[o]=a[e[f]];n=n+1;e=t[n];end else u[e[l]]=z[e[d]];n=n+1;e=t[n];end else if 4>=r then if r>3 then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];else o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];end else if r>2 then repeat if 6~=r then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;if u[e[l]]then n=n+1;else n=e[d];end;until true;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end end end else local o,r;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];u(e[l],e[d]);end else u[e[l]]=u[e[d]][e[f]];end end end else if o<80 then if 76<o then if o>=78 then if 75<o then repeat if 78<o then n=e[d];break;end;z[e[d]]=u[e[l]];until true;else n=e[d];end else local l=e[l]local d={u[l](h(u,l+1,r))};local n=0;for e=l,e[f]do n=n+1;u[e]=d[n];end end else if o<=74 then u[e[l]]=c[e[d]];else if o>=73 then for r=17,58 do if 75<o then for o=0,6 do if 3>o then if o<=0 then u[e[l]]=z[e[d]];n=n+1;e=t[n];else if 2~=o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end else if 5>o then if o>=-1 then repeat if 4>o then u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];until true;else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end else if o~=3 then repeat if o>5 then u[e[l]]=u[e[d]];break;end;u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];until true;else u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];end end end end break;end;local r;for o=0,3 do if o>=2 then if o>=1 then repeat if 3~=o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;r=e[l]u[r](h(u,r+1,e[d]))until true;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else if o~=-4 then for h=34,79 do if 0~=o then u[e[l]]=u[e[d]];n=n+1;e=t[n];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end end break;end;else local r;for o=0,3 do if o>=2 then if o>=1 then repeat if 3~=o then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;r=e[l]u[r](h(u,r+1,e[d]))until true;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end else if o~=-4 then for h=34,79 do if 0~=o then u[e[l]]=u[e[d]];n=n+1;e=t[n];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end end end end end else if o<83 then if 81>o then local e=e[l]u[e](u[e+1])else if 77<o then for n=29,75 do if 81~=o then local t,f,z,r,h,o;local n=0;while n>-1 do if 3>=n then if 1>=n then if n~=-3 then for u=37,98 do if n>0 then f=l;break;end;t=e;break;end;else t=e;end else if n~=3 then z=d;else r=u;end end else if n<=5 then if n~=0 then for e=25,96 do if 5~=n then h=r[t[z]];break;end;o=t[f];break;end;else o=t[f];end else if 4<=n then for e=13,61 do if 7~=n then u[o]=h;break;end;n=-2;break;end;else n=-2;end end end n=n+1 end break;end;u[e[l]]=c[e[d]];break;end;else u[e[l]]=c[e[d]];end end else if 84>o then local o,c,b,k,a;o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]b,k=s(u[o](h(u,o+1,e[d])))r=k+o-1 a=0;for e=o,r do a=a+1;u[e]=b[a];end;n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,r))n=n+1;e=t[n];o=e[l]u[o]=u[o]()n=n+1;e=t[n];u[e[l]]=z[e[d]];n=n+1;e=t[n];u[e[l]]=z[e[d]];else if o~=84 then u[e[l]][e[d]]=e[f];else local o,z;for r=0,6 do if 3<=r then if 5>r then if r>=-1 then for a=21,74 do if r~=4 then o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];break;end;o=e[l];z=u[e[d]];u[o+1]=z;u[o]=z[e[f]];n=n+1;e=t[n];break;end;else o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];end else if r~=5 then o=e[l]u[o](h(u,o+1,e[d]))else u[e[l]]=u[e[d]];n=n+1;e=t[n];end end else if r>=1 then if-3<r then for h=37,54 do if 2>r then o=e[l];z=u[e[d]];u[o+1]=z;u[o]=z[e[f]];n=n+1;e=t[n];break;end;u[e[l]]=u[e[d]];n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]];n=n+1;e=t[n];end else o=e[l]u[o](u[o+1])n=n+1;e=t[n];end end end end end end end end else if 60<o then if o<67 then if 63>=o then if 62<=o then if 63~=o then local e=e[l]u[e]=u[e](u[e+1])else local f;u[e[l]]=c[e[d]];n=n+1;e=t[n];u[e[l]]();n=n+1;e=t[n];u[e[l]]=c[e[d]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];f=e[l]u[f](u[f+1])n=n+1;e=t[n];do return end;end else local h,s,a,o,r,f,z;u[e[l]]=c[e[d]];n=n+1;e=t[n];u[e[l]]();n=n+1;e=t[n];u[e[l]]=c[e[d]];n=n+1;e=t[n];f=0;while f>-1 do if f<3 then if f<1 then h=e;else if f~=1 then a=d;else s=l;end end else if f>=5 then if 3~=f then repeat if 6>f then u(r,o);break;end;f=-2;until true;else u(r,o);end else if 0~=f then repeat if 3<f then r=h[s];break;end;o=h[a];until true;else o=h[a];end end end f=f+1 end n=n+1;e=t[n];z=e[l]u[z](u[z+1])n=n+1;e=t[n];do return end;end else if 64<o then if o~=64 then for r=18,67 do if o~=65 then local e=e[l]u[e]=u[e]()break;end;local r,z;for o=0,6 do if o<3 then if o<1 then u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];else if-2<=o then repeat if o~=2 then r=e[l];z=u[e[d]];u[r+1]=z;u[r]=z[e[f]];n=n+1;e=t[n];break;end;u[e[l]]={};n=n+1;e=t[n];until true;else u[e[l]]={};n=n+1;e=t[n];end end else if 4>=o then if 0~=o then for h=25,93 do if 4>o then u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;u[e[l]][e[d]]=e[f];n=n+1;e=t[n];break;end;else u[e[l]][e[d]]=e[f];n=n+1;e=t[n];end else if 2<=o then repeat if 6>o then r=e[l]u[r](h(u,r+1,e[d]))n=n+1;e=t[n];break;end;u[e[l]]={};until true;else u[e[l]]={};end end end end break;end;else local e=e[l]u[e]=u[e]()end else local d=e[d];local n=u[d]for e=d+1,e[f]do n=n..u[e];end;u[e[l]]=n;end end else if o<=69 then if o>67 then if o~=68 then local o;u(e[l],e[d]);n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];u[e[l]]=z[e[d]];else local r=k[e[d]];local h;local o={};h=a.FSadIKcj({},{__index=function(n,e)local e=o[e];return e[1][e[2]];end,__newindex=function(u,e,n)local e=o[e]e[1][e[2]]=n;end;});for l=1,e[f]do n=n+1;local e=t[n];if e[y]==22 then o[l-1]={u,e[d]};else o[l-1]={c,e[d]};end;p[#p+1]=o;end;u[e[l]]=b(r,h,z);end else local n=e[l]u[n]=u[n](h(u,n+1,e[d]))end else if 72>o then if o>68 then repeat if 70~=o then local o;u[e[l]]=z[e[d]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];break;end;local o;u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]=z[e[d]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](u[o+1])n=n+1;e=t[n];u[e[l]]=z[e[d]];until true;else local o;u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]=z[e[d]];n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];u(e[l],e[d]);n=n+1;e=t[n];o=e[l]u[o]=u[o](u[o+1])n=n+1;e=t[n];u[e[l]]=z[e[d]];end else if o>=68 then repeat if 73~=o then local t=e[l];local f=e[f];local l=t+2 local t={u[t](u[t+1],u[l])};for e=1,f do u[l+e]=t[e];end;local t=t[1]if t then u[l]=t n=e[d];else n=n+1;end;break;end;local r,a;for o=0,6 do if 3>o then if 1>o then u[e[l]]=z[e[d]];n=n+1;e=t[n];else if o~=-1 then for h=29,79 do if o~=2 then r=e[l];a=u[e[d]];u[r+1]=a;u[r]=a[e[f]];n=n+1;e=t[n];break;end;u(e[l],e[d]);n=n+1;e=t[n];break;end;else u(e[l],e[d]);n=n+1;e=t[n];end end else if o>=5 then if 2~=o then for h=48,89 do if 5~=o then u[e[l]]=u[e[d]][e[f]];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]][e[f]];end else if o==3 then r=e[l]u[r]=u[r](h(u,r+1,e[d]))n=n+1;e=t[n];else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end end end until true;else local r,a;for o=0,6 do if 3>o then if 1>o then u[e[l]]=z[e[d]];n=n+1;e=t[n];else if o~=-1 then for h=29,79 do if o~=2 then r=e[l];a=u[e[d]];u[r+1]=a;u[r]=a[e[f]];n=n+1;e=t[n];break;end;u(e[l],e[d]);n=n+1;e=t[n];break;end;else u(e[l],e[d]);n=n+1;e=t[n];end end else if o>=5 then if 2~=o then for h=48,89 do if 5~=o then u[e[l]]=u[e[d]][e[f]];break;end;u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];break;end;else u[e[l]]=u[e[d]][e[f]];end else if o==3 then r=e[l]u[r]=u[r](h(u,r+1,e[d]))n=n+1;e=t[n];else u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];end end end end end end end end else if o>=55 then if 57>=o then if o>=56 then if o>=53 then for n=40,56 do if 56<o then u(e[l],e[d]);break;end;local n=e[l]u[n](h(u,n+1,e[d]))break;end;else local n=e[l]u[n](h(u,n+1,e[d]))end else if(u[e[l]]==e[f])then n=n+1;else n=e[d];end;end else if o<=58 then local e=e[l]u[e]=u[e](h(u,e+1,r))else if 57<=o then repeat if 59<o then local a,c,z,b,s,o,r;o=0;while o>-1 do if o<3 then if 0<o then if o>-2 then for e=33,97 do if 2~=o then c=l;break;end;z=d;break;end;else z=d;end else a=e;end else if o>=5 then if 4~=o then repeat if o~=6 then u(s,b);break;end;o=-2;until true;else o=-2;end else if o>3 then s=a[c];else b=a[z];end end end o=o+1 end n=n+1;e=t[n];r=e[l]u[r]=u[r](h(u,r+1,e[d]))n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];do return end;break;end;local o,r;u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];o=e[l]u[o](h(u,o+1,e[d]))n=n+1;e=t[n];u[e[l]]=u[e[d]][e[f]];n=n+1;e=t[n];o=e[l];r=u[e[d]];u[o+1]=r;u[o]=r[e[f]];n=n+1;e=t[n];u[e[l]]={};n=n+1;e=t[n];u[e[l]][e[d]]=e[f];n=n+1;e=t[n];u[e[l]][e[d]]=e[f];until true;else local a,b,z,c,s,o,r;o=0;while o>-1 do if o<3 then if 0<o then if o>-2 then for e=33,97 do if 2~=o then b=l;break;end;z=d;break;end;else z=d;end else a=e;end else if o>=5 then if 4~=o then repeat if o~=6 then u(s,c);break;end;o=-2;until true;else o=-2;end else if o>3 then s=a[b];else c=a[z];end end end o=o+1 end n=n+1;e=t[n];r=e[l]u[r]=u[r](h(u,r+1,e[d]))n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];u[e[l]][e[d]]=u[e[f]];n=n+1;e=t[n];do return end;end end end else if 52>o then if o<50 then local d=e[d];local n=u[d]for e=d+1,e[f]do n=n..u[e];end;u[e[l]]=n;else if 46<=o then for n=31,74 do if 51~=o then u[e[l]]=(e[d]~=0);break;end;local n=e[l]local l,e=s(u[n](h(u,n+1,e[d])))r=e+n-1 local e=0;for n=n,r do e=e+1;u[n]=l[e];end;break;end;else u[e[l]]=(e[d]~=0);end end else if o>52 then if 52<=o then for a=11,91 do if 54~=o then u[e[l]]=b(k[e[d]],nil,z);break;end;local o,c,b,p,a,k;for b=0,4 do if 1<b then if b<3 then o=e[l]k,p=s(u[o](u[o+1]))r=p+o-1 a=0;for e=o,r do a=a+1;u[e]=k[a];end;n=n+1;e=t[n];else if b>=2 then for z=39,53 do if b<4 then o=e[l]k={u[o](h(u,o+1,r))};a=0;for e=o,e[f]do a=a+1;u[e]=k[a];end n=n+1;e=t[n];break;end;n=e[d];break;end;else n=e[d];end end else if b>=-2 then repeat if 0<b then o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];break;end;u[e[l]]=z[e[d]];n=n+1;e=t[n];until true;else o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];end end end break;end;else local o,c,b,p,a,k;for b=0,4 do if 1<b then if b<3 then o=e[l]k,p=s(u[o](u[o+1]))r=p+o-1 a=0;for e=o,r do a=a+1;u[e]=k[a];end;n=n+1;e=t[n];else if b>=2 then for z=39,53 do if b<4 then o=e[l]k={u[o](h(u,o+1,r))};a=0;for e=o,e[f]do a=a+1;u[e]=k[a];end n=n+1;e=t[n];break;end;n=e[d];break;end;else n=e[d];end end else if b>=-2 then repeat if 0<b then o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];break;end;u[e[l]]=z[e[d]];n=n+1;e=t[n];until true;else o=e[l];c=u[e[d]];u[o+1]=c;u[o]=c[e[f]];n=n+1;e=t[n];end end end end else u[e[l]]=u[e[d]][e[f]];end end end end end end n=1+n;end;end;return ue end;local d=0xff;local r={};local t=(1);local l='';(function(n)local u=n local f=0x00 local e=0x00 u={(function(o)if f>0x24 then return o end f=f+1 e=(e+0xb09-o)%0xd return(e%0x03==0x0 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x39);r[t]=le();t=t+d;end return true end)'zHGkn'and u[0x2](0x2e1+o))or(e%0x03==0x1 and(function(u)if not n[u]then e=e+0x01 n[u]=(0xe7);l='\37';d={function()d()end};l=l..'\100\43';end return true end)'jRwTj'and u[0x3](o+0x18c))or(e%0x03==0x2 and(function(u)if not n[u]then e=e+0x01 n[u]=(0xc9);d[2]=(d[2]*(ue(function()r()end,h(l))-ue(d[1],h(l))))+1;r[t]={};d=d[2];t=t+d;end return true end)'qclFO'and u[0x1](o+0x387))or o end),(function(l)if f>0x2c then return l end f=f+1 e=(e+0xd07-l)%0x3a return(e%0x03==0x2 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x1a);end return true end)'mdu_D'and u[0x1](0x30d+l))or(e%0x03==0x0 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x7f);end return true end)'MTrGv'and u[0x2](l+0x255))or(e%0x03==0x1 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x9a);end return true end)'cFKUp'and u[0x3](l+0x258))or l end),(function(o)if f>0x20 then return o end f=f+1 e=(e+0xb6a-o)%0x14 return(e%0x03==0x1 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x60);end return true end)'iTmyX'and u[0x3](0xe5+o))or(e%0x03==0x2 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x3b);l={l..'\58 a',l};r[t]=ne();t=t+((not a.RuXI_IfY)and 1 or 0);l[1]='\58'..l[1];d[2]=0xff;end return true end)'PazDH'and u[0x1](o+0x3d7))or(e%0x03==0x0 and(function(u)if not n[u]then e=e+0x01 n[u]=(0x58);end return true end)'qLIMM'and u[0x2](o+0x2ca))or o end)}u[0x1](0x13ef)end){};local e=b(h(r));return e(...);end return ue((function()local n={}local e=0x01;local u;if a.RuXI_IfY then u=a.RuXI_IfY(ue)else u=''end if a.gehCwagf(u,a.jjXhLBRa)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(u,e,n,l,d,t)local t;if u>=4 then if u>=6 then if 7<=u then if u>5 then for e=48,64 do if u~=7 then do return n(u,nil,n);end break;end;do return setmetatable({},{['__\99\97\108\108']=function(e,u,d,l,n)if n then return e[n]elseif l then return e else e[u]=d end end})end break;end;else do return n(u,nil,n);end end else do return d[n]end;end else if 4<u then local u=l;do return function()local e=e(n,u(u,u),u(u,u));u(1);return e;end;end;else local u=l;local f,o,t=d(2);do return function()local n,l,e,d=e(n,u(u,u),u(u,u)+3);u(4);return(d*f)+(e*o)+(l*t)+n;end;end;end end else if 1>=u then if-2<=u then repeat if u~=0 then do return function(u,e,n)if n then local e=(u/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(u%(e+e)>=e)and 1 or 0;end;end;end;break;end;do return e(1),e(4,d,l,n,e),e(5,d,l,n)end;until true;else do return e(1),e(4,d,l,n,e),e(5,d,l,n)end;end else if 2~=u then do return e(1),e(4,d,l,n,e),e(5,d,l,n)end;else do return 16777216,65536,256 end;end end end end),...)
+-- Instances:
+
+local FakeInternal = Instance.new("ScreenGui")
+local Dim = Instance.new("Frame")
+local Executor = Instance.new("CanvasGroup")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Scripts = Instance.new("ScrollingFrame")
+local Editor = Instance.new("Frame")
+local Lines = Instance.new("ScrollingFrame")
+local Content = Instance.new("TextLabel")
+local UIPadding = Instance.new("UIPadding")
+local Code = Instance.new("ScrollingFrame")
+local Content_2 = Instance.new("TextBox")
+local UIPadding_2 = Instance.new("UIPadding")
+local Buttons = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local Execute = Instance.new("TextButton")
+local UIStroke = Instance.new("UIStroke")
+local UICorner_3 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UIStroke_2 = Instance.new("UIStroke")
+local UICorner_4 = Instance.new("UICorner")
+local UIStroke_3 = Instance.new("UIStroke")
+local Console = Instance.new("CanvasGroup")
+local UICorner_5 = Instance.new("UICorner")
+local UIStroke_4 = Instance.new("UIStroke")
+local Log = Instance.new("ScrollingFrame")
+local UICorner_6 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Item = Instance.new("Frame")
+local Message = Instance.new("TextLabel")
+local UIPadding_3 = Instance.new("UIPadding")
+local Time = Instance.new("TextLabel")
+local UIPadding_4 = Instance.new("UIPadding")
+local Buttons_2 = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local ClearLog = Instance.new("TextButton")
+local UIStroke_5 = Instance.new("UIStroke")
+local Label = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local AutoScroll = Instance.new("TextButton")
+local UIStroke_6 = Instance.new("UIStroke")
+local Toggle = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local State = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Label_2 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local Settings = Instance.new("CanvasGroup")
+local UICorner_12 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local UIStroke_7 = Instance.new("UIStroke")
+local Buttons_3 = Instance.new("ScrollingFrame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Keybind = Instance.new("TextButton")
+local UIStroke_8 = Instance.new("UIStroke")
+local Bind = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Bind_2 = Instance.new("TextLabel")
+local UIPadding_5 = Instance.new("UIPadding")
+local Label_3 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UIPadding_6 = Instance.new("UIPadding")
+local SavePosition = Instance.new("TextButton")
+local UIStroke_9 = Instance.new("UIStroke")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Button = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Bind_3 = Instance.new("TextLabel")
+local UIPadding_7 = Instance.new("UIPadding")
+local LoadPosition = Instance.new("TextButton")
+local UIStroke_10 = Instance.new("UIStroke")
+local Label_5 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Button_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local Bind_4 = Instance.new("TextLabel")
+local UIPadding_8 = Instance.new("UIPadding")
+local ResetPosition = Instance.new("TextButton")
+local UIStroke_11 = Instance.new("UIStroke")
+local Label_6 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local Button_3 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local Bind_5 = Instance.new("TextLabel")
+local UIPadding_9 = Instance.new("UIPadding")
+local Version = Instance.new("TextLabel")
+local ScriptHub = Instance.new("CanvasGroup")
+local UICorner_22 = Instance.new("UICorner")
+local Title_4 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+local UIStroke_12 = Instance.new("UIStroke")
+local Popular = Instance.new("ScrollingFrame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local UIPadding_10 = Instance.new("UIPadding")
+local Item_2 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local Icon = Instance.new("ImageLabel")
+local UIStroke_13 = Instance.new("UIStroke")
+local UICorner_25 = Instance.new("UICorner")
+local Title_5 = Instance.new("TextLabel")
+local Description = Instance.new("TextLabel")
+local Author = Instance.new("TextLabel")
+local Button_4 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local UIStroke_14 = Instance.new("UIStroke")
+local Buttons_4 = Instance.new("Frame")
+local UIListLayout_6 = Instance.new("UIListLayout")
+local Popular_2 = Instance.new("TextButton")
+local UIStroke_15 = Instance.new("UIStroke")
+local UICorner_27 = Instance.new("UICorner")
+local Personal = Instance.new("TextButton")
+local UIStroke_16 = Instance.new("UIStroke")
+local UICorner_28 = Instance.new("UICorner")
+local Personal_2 = Instance.new("ScrollingFrame")
+local UIListLayout_7 = Instance.new("UIListLayout")
+local Item_3 = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local Title_6 = Instance.new("TextLabel")
+local Path = Instance.new("TextLabel")
+local Button_5 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local UIStroke_17 = Instance.new("UIStroke")
+local UIPadding_11 = Instance.new("UIPadding")
+
+if syn then
+	syn.protect_gui(FakeInternal)
+end
+
+--Properties:
+
+FakeInternal.Name = "FakeInternal"
+FakeInternal.Parent = (gethui and gethui()) or (get_hidden_ui and get_hidden_ui()) or game.CoreGui
+FakeInternal.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FakeInternal.IgnoreGuiInset = true
+
+Dim.Name = "Dim"
+Dim.Parent = FakeInternal
+Dim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Dim.BackgroundTransparency = 0.350
+Dim.BorderSizePixel = 0
+Dim.Size = UDim2.new(1, 0, 1, 0)
+Dim.Visible = false
+Dim.ZIndex = 0
+
+Executor.Name = "Chinese.cn Internal"
+Executor.Parent = FakeInternal
+Executor.AnchorPoint = Vector2.new(0.5, 0.5)
+Executor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Executor.BorderSizePixel = 0
+Executor.Position = UDim2.new(0.5, 0, 0.5, -155)
+Executor.Size = UDim2.new(0, 500, 0, 300)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Executor
+
+Title.Name = "Title"
+Title.Parent = Executor
+Title.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(1, 0, 0, 30)
+Title.ZIndex = 2
+Title.Font = Enum.Font.Gotham
+Title.Text = "Executor"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Title
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Executor
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0, 380, 0, 40)
+Scripts.Size = UDim2.new(0, 110, 1, -90)
+Scripts.Visible = false
+Scripts.AutomaticCanvasSize = Enum.AutomaticSize.XY
+Scripts.CanvasSize = UDim2.new(0, 0, 0, 0)
+Scripts.ScrollBarThickness = 8
+
+Editor.Name = "Editor"
+Editor.Parent = Executor
+Editor.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Editor.BorderSizePixel = 0
+Editor.ClipsDescendants = true
+Editor.Position = UDim2.new(0, 10, 0, 40)
+Editor.Size = UDim2.new(1, -20, 1, -90)
+
+Lines.Name = "Lines"
+Lines.Parent = Editor
+Lines.Active = true
+Lines.AutomaticSize = Enum.AutomaticSize.X
+Lines.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Lines.BorderSizePixel = 0
+Lines.Size = UDim2.new(0, 15, 1, 0)
+Lines.ZIndex = 2
+Lines.AutomaticCanvasSize = Enum.AutomaticSize.Y
+Lines.CanvasSize = UDim2.new(0, 0, 0, 0)
+Lines.ScrollingDirection = Enum.ScrollingDirection.Y
+Lines.ScrollBarThickness = 0
+
+Content.Name = "Content"
+Content.Parent = Lines
+Content.AutomaticSize = Enum.AutomaticSize.XY
+Content.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Content.BackgroundTransparency = 1.000
+Content.BorderSizePixel = 0
+Content.Size = UDim2.new(1, 0, 1, 0)
+Content.ZIndex = 2
+Content.Font = Enum.Font.Code
+Content.Text = "1"
+Content.TextColor3 = Color3.fromRGB(150, 150, 150)
+Content.TextSize = 14.000
+Content.TextXAlignment = Enum.TextXAlignment.Right
+Content.TextYAlignment = Enum.TextYAlignment.Top
+
+UIPadding.Parent = Content
+UIPadding.PaddingLeft = UDim.new(0, 4)
+UIPadding.PaddingRight = UDim.new(0, 3)
+UIPadding.PaddingTop = UDim.new(0, 5)
+
+Code.Name = "Code"
+Code.Parent = Editor
+Code.Active = true
+Code.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Code.BackgroundTransparency = 1.000
+Code.BorderSizePixel = 0
+Code.Position = UDim2.new(0, 22, 0, 0)
+Code.Size = UDim2.new(1, -22, 1, 0)
+Code.AutomaticCanvasSize = Enum.AutomaticSize.XY
+Code.CanvasSize = UDim2.new(0, 0, 0, 0)
+Code.ScrollBarThickness = 6
+
+Content_2.Name = "Content"
+Content_2.Parent = Code
+Content_2.AutomaticSize = Enum.AutomaticSize.XY
+Content_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Content_2.BackgroundTransparency = 1.000
+Content_2.BorderSizePixel = 0
+Content_2.Size = UDim2.new(1, 0, 1, 0)
+Content_2.ClearTextOnFocus = false
+Content_2.Font = Enum.Font.Code
+Content_2.MultiLine = true
+Content_2.Text = ""
+Content_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Content_2.TextSize = 14.000
+Content_2.TextXAlignment = Enum.TextXAlignment.Left
+Content_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UIPadding_2.Parent = Content_2
+UIPadding_2.PaddingLeft = UDim.new(0, 8)
+UIPadding_2.PaddingTop = UDim.new(0, 5)
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Executor
+Buttons.AnchorPoint = Vector2.new(0, 1)
+Buttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttons.BackgroundTransparency = 1.000
+Buttons.BorderSizePixel = 0
+Buttons.Position = UDim2.new(0, 10, 1, -10)
+Buttons.Size = UDim2.new(1, -20, 0, 30)
+
+UIListLayout.Parent = Buttons
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 10)
+
+Execute.Name = "Execute"
+Execute.Parent = Buttons
+Execute.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Execute.BorderSizePixel = 0
+Execute.LayoutOrder = 1
+Execute.Size = UDim2.new(0, 80, 1, 0)
+Execute.Font = Enum.Font.Gotham
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 14.000
+
+UIStroke.Parent = Execute
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.Color = Color3.fromRGB(150, 150, 150)
+UIStroke.Transparency = 1.000
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Execute
+
+Clear.Name = "Clear"
+Clear.Parent = Buttons
+Clear.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Clear.BorderSizePixel = 0
+Clear.LayoutOrder = 2
+Clear.Size = UDim2.new(0, 80, 1, 0)
+Clear.Font = Enum.Font.Gotham
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 14.000
+
+UIStroke_2.Parent = Clear
+UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_2.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_2.Transparency = 1.000
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Clear
+
+UIStroke_3.Parent = Executor
+UIStroke_3.Color = Color3.fromRGB(120, 120, 120)
+
+Console.Name = "Console"
+Console.Parent = FakeInternal
+Console.AnchorPoint = Vector2.new(0.5, 0.5)
+Console.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Console.BorderSizePixel = 0
+Console.Position = UDim2.new(0.5, 0, 0.5, 155)
+Console.Size = UDim2.new(0, 500, 0, 300)
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Console
+
+UIStroke_4.Parent = Console
+UIStroke_4.Color = Color3.fromRGB(120, 120, 120)
+
+Log.Name = "Log"
+Log.Parent = Console
+Log.Active = true
+Log.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Log.BorderSizePixel = 0
+Log.Position = UDim2.new(0, 10, 0, 40)
+Log.Size = UDim2.new(1, -20, 1, -90)
+Log.CanvasSize = UDim2.new(0, 0, 0, 5)
+Log.ScrollingDirection = Enum.ScrollingDirection.Y
+Log.ScrollBarThickness = 6
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Log
+
+UIListLayout_2.Parent = Log
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, -5)
+
+Item.Name = "Item"
+Item.Parent = Log
+Item.AutomaticSize = Enum.AutomaticSize.Y
+Item.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Item.BackgroundTransparency = 1.000
+Item.BorderSizePixel = 0
+Item.Size = UDim2.new(1, 0, 0, 25)
+Item.Visible = false
+
+Message.Name = "Message"
+Message.Parent = Item
+Message.AutomaticSize = Enum.AutomaticSize.Y
+Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message.BackgroundTransparency = 1.000
+Message.BorderSizePixel = 0
+Message.Position = UDim2.new(0, 70, 0, 0)
+Message.Size = UDim2.new(1, -70, 0, 10)
+Message.Font = Enum.Font.Code
+Message.Text = "Message"
+Message.TextColor3 = Color3.fromRGB(230, 230, 230)
+Message.TextSize = 14.000
+Message.TextTruncate = Enum.TextTruncate.AtEnd
+Message.TextWrapped = true
+Message.TextXAlignment = Enum.TextXAlignment.Left
+Message.TextYAlignment = Enum.TextYAlignment.Top
+
+UIPadding_3.Parent = Message
+UIPadding_3.PaddingBottom = UDim.new(0, 5)
+UIPadding_3.PaddingLeft = UDim.new(0, 8)
+UIPadding_3.PaddingTop = UDim.new(0, 5)
+
+Time.Name = "Time"
+Time.Parent = Item
+Time.AutomaticSize = Enum.AutomaticSize.Y
+Time.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Time.BackgroundTransparency = 1.000
+Time.BorderSizePixel = 0
+Time.Size = UDim2.new(0, 70, 0, 10)
+Time.Font = Enum.Font.Code
+Time.Text = "00:00:00"
+Time.TextColor3 = Color3.fromRGB(150, 150, 150)
+Time.TextSize = 14.000
+Time.TextXAlignment = Enum.TextXAlignment.Left
+Time.TextYAlignment = Enum.TextYAlignment.Top
+
+UIPadding_4.Parent = Time
+UIPadding_4.PaddingLeft = UDim.new(0, 8)
+UIPadding_4.PaddingTop = UDim.new(0, 5)
+
+Buttons_2.Name = "Buttons"
+Buttons_2.Parent = Console
+Buttons_2.AnchorPoint = Vector2.new(0, 1)
+Buttons_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttons_2.BackgroundTransparency = 1.000
+Buttons_2.BorderSizePixel = 0
+Buttons_2.Position = UDim2.new(0, 10, 1, -10)
+Buttons_2.Size = UDim2.new(1, -20, 0, 30)
+
+UIListLayout_3.Parent = Buttons_2
+UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 10)
+
+ClearLog.Name = "ClearLog"
+ClearLog.Parent = Buttons_2
+ClearLog.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ClearLog.BorderSizePixel = 0
+ClearLog.LayoutOrder = 1
+ClearLog.Size = UDim2.new(0, 85, 1, 0)
+ClearLog.Font = Enum.Font.Gotham
+ClearLog.Text = ""
+ClearLog.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearLog.TextSize = 14.000
+
+UIStroke_5.Parent = ClearLog
+UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_5.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_5.Transparency = 1.000
+
+Label.Name = "Label"
+Label.Parent = ClearLog
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.BorderSizePixel = 0
+Label.Position = UDim2.new(0, 10, 0, 0)
+Label.Size = UDim2.new(1, -20, 1, 0)
+Label.Font = Enum.Font.Gotham
+Label.Text = "Clear Log"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 14.000
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = ClearLog
+
+AutoScroll.Name = "AutoScroll"
+AutoScroll.Parent = Buttons_2
+AutoScroll.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AutoScroll.BackgroundTransparency = 1.000
+AutoScroll.BorderSizePixel = 0
+AutoScroll.LayoutOrder = 1
+AutoScroll.Size = UDim2.new(0, 120, 1, 0)
+AutoScroll.Font = Enum.Font.Gotham
+AutoScroll.Text = ""
+AutoScroll.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoScroll.TextSize = 14.000
+
+UIStroke_6.Parent = AutoScroll
+UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_6.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_6.Transparency = 1.000
+
+Toggle.Name = "Toggle"
+Toggle.Parent = AutoScroll
+Toggle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Toggle.BorderSizePixel = 0
+Toggle.Size = UDim2.new(0, 30, 1, 0)
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = Toggle
+
+State.Name = "State"
+State.Parent = Toggle
+State.AnchorPoint = Vector2.new(0.5, 0.5)
+State.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+State.BackgroundTransparency = 1.000
+State.BorderSizePixel = 0
+State.Position = UDim2.new(0.5, 0, 0.5, 0)
+State.Size = UDim2.new(0, 24, 0, 24)
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = State
+
+Label_2.Name = "Label"
+Label_2.Parent = AutoScroll
+Label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.BackgroundTransparency = 1.000
+Label_2.BorderSizePixel = 0
+Label_2.Position = UDim2.new(0, 40, 0, 0)
+Label_2.Size = UDim2.new(1, -40, 1, 0)
+Label_2.Font = Enum.Font.Gotham
+Label_2.Text = "Auto Scroll"
+Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.TextSize = 14.000
+Label_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = AutoScroll
+
+Title_2.Name = "Title"
+Title_2.Parent = Console
+Title_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title_2.BorderSizePixel = 0
+Title_2.Size = UDim2.new(1, 0, 0, 30)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.Gotham
+Title_2.Text = "Console"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = Title_2
+
+Settings.Name = "Settings"
+Settings.Parent = FakeInternal
+Settings.AnchorPoint = Vector2.new(0.5, 0.5)
+Settings.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.5, 410, 0.5, 0)
+Settings.Size = UDim2.new(0, 300, 0, 300)
+
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = Settings
+
+Title_3.Name = "Title"
+Title_3.Parent = Settings
+Title_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title_3.BorderSizePixel = 0
+Title_3.Size = UDim2.new(1, 0, 0, 30)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.Gotham
+Title_3.Text = "Settings"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 4)
+UICorner_13.Parent = Title_3
+
+UIStroke_7.Parent = Settings
+UIStroke_7.Color = Color3.fromRGB(120, 120, 120)
+UIStroke_7.Transparency = 1.000
+
+Buttons_3.Name = "Buttons"
+Buttons_3.Parent = Settings
+Buttons_3.Active = true
+Buttons_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Buttons_3.BackgroundTransparency = 1.000
+Buttons_3.BorderSizePixel = 0
+Buttons_3.Position = UDim2.new(0, 5, 0, 35)
+Buttons_3.Size = UDim2.new(1, -10, 1, -65)
+Buttons_3.CanvasSize = UDim2.new(0, 0, 0, 0)
+Buttons_3.ScrollingDirection = Enum.ScrollingDirection.Y
+Buttons_3.ScrollBarThickness = 0
+
+UIListLayout_4.Parent = Buttons_3
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 5)
+
+Keybind.Name = "Keybind"
+Keybind.Parent = Buttons_3
+Keybind.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Keybind.BackgroundTransparency = 1.000
+Keybind.BorderSizePixel = 0
+Keybind.LayoutOrder = 1
+Keybind.Size = UDim2.new(1, 0, 0, 30)
+Keybind.Font = Enum.Font.Gotham
+Keybind.Text = ""
+Keybind.TextColor3 = Color3.fromRGB(255, 255, 255)
+Keybind.TextSize = 14.000
+
+UIStroke_8.Parent = Keybind
+UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_8.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_8.Transparency = 1.000
+
+Bind.Name = "Bind"
+Bind.Parent = Keybind
+Bind.AnchorPoint = Vector2.new(1, 0)
+Bind.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Bind.BorderSizePixel = 0
+Bind.Position = UDim2.new(1, 0, 0, 0)
+Bind.Size = UDim2.new(0, 50, 1, 0)
+
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = Bind
+
+Bind_2.Name = "Bind"
+Bind_2.Parent = Bind
+Bind_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bind_2.BackgroundTransparency = 1.000
+Bind_2.BorderSizePixel = 0
+Bind_2.Size = UDim2.new(1, 0, 1, 0)
+Bind_2.Font = Enum.Font.GothamBold
+Bind_2.Text = "Insert"
+Bind_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bind_2.TextSize = 14.000
+
+UIPadding_5.Parent = Bind_2
+UIPadding_5.PaddingLeft = UDim.new(0, 6)
+UIPadding_5.PaddingRight = UDim.new(0, 5)
+
+Label_3.Name = "Label"
+Label_3.Parent = Keybind
+Label_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.BackgroundTransparency = 1.000
+Label_3.BorderSizePixel = 0
+Label_3.Position = UDim2.new(0, 5, 0, 0)
+Label_3.Size = UDim2.new(1, 0, 1, 0)
+Label_3.Font = Enum.Font.Gotham
+Label_3.Text = "UI Toggle Keybind"
+Label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.TextSize = 14.000
+Label_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = Keybind
+
+UIPadding_6.Parent = Buttons_3
+UIPadding_6.PaddingBottom = UDim.new(0, 5)
+UIPadding_6.PaddingLeft = UDim.new(0, 5)
+UIPadding_6.PaddingRight = UDim.new(0, 5)
+UIPadding_6.PaddingTop = UDim.new(0, 5)
+
+SavePosition.Name = "SavePosition"
+SavePosition.Parent = Buttons_3
+SavePosition.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SavePosition.BackgroundTransparency = 1.000
+SavePosition.BorderSizePixel = 0
+SavePosition.LayoutOrder = 1
+SavePosition.Size = UDim2.new(1, 0, 0, 30)
+SavePosition.Font = Enum.Font.Gotham
+SavePosition.Text = ""
+SavePosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+SavePosition.TextSize = 14.000
+
+UIStroke_9.Parent = SavePosition
+UIStroke_9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_9.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_9.Transparency = 1.000
+
+Label_4.Name = "Label"
+Label_4.Parent = SavePosition
+Label_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.BackgroundTransparency = 1.000
+Label_4.BorderSizePixel = 0
+Label_4.Position = UDim2.new(0, 5, 0, 0)
+Label_4.Size = UDim2.new(1, 0, 1, 0)
+Label_4.Font = Enum.Font.Gotham
+Label_4.Text = "Save UI Position"
+Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.TextSize = 14.000
+Label_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = SavePosition
+
+Button.Name = "Button"
+Button.Parent = SavePosition
+Button.AnchorPoint = Vector2.new(1, 0)
+Button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(1, 0, 0, 0)
+Button.Size = UDim2.new(0, 46, 1, 0)
+
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = Button
+
+Bind_3.Name = "Bind"
+Bind_3.Parent = Button
+Bind_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bind_3.BackgroundTransparency = 1.000
+Bind_3.BorderSizePixel = 0
+Bind_3.Size = UDim2.new(1, 0, 1, 0)
+Bind_3.Font = Enum.Font.GothamBold
+Bind_3.Text = "Save"
+Bind_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bind_3.TextSize = 14.000
+
+UIPadding_7.Parent = Bind_3
+UIPadding_7.PaddingLeft = UDim.new(0, 6)
+UIPadding_7.PaddingRight = UDim.new(0, 5)
+
+LoadPosition.Name = "LoadPosition"
+LoadPosition.Parent = Buttons_3
+LoadPosition.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+LoadPosition.BackgroundTransparency = 1.000
+LoadPosition.BorderSizePixel = 0
+LoadPosition.LayoutOrder = 1
+LoadPosition.Size = UDim2.new(1, 0, 0, 30)
+LoadPosition.Font = Enum.Font.Gotham
+LoadPosition.Text = ""
+LoadPosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadPosition.TextSize = 14.000
+
+UIStroke_10.Parent = LoadPosition
+UIStroke_10.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_10.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_10.Transparency = 1.000
+
+Label_5.Name = "Label"
+Label_5.Parent = LoadPosition
+Label_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_5.BackgroundTransparency = 1.000
+Label_5.BorderSizePixel = 0
+Label_5.Position = UDim2.new(0, 5, 0, 0)
+Label_5.Size = UDim2.new(1, 0, 1, 0)
+Label_5.Font = Enum.Font.Gotham
+Label_5.Text = "Load Saved UI Position"
+Label_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_5.TextSize = 14.000
+Label_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = LoadPosition
+
+Button_2.Name = "Button"
+Button_2.Parent = LoadPosition
+Button_2.AnchorPoint = Vector2.new(1, 0)
+Button_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(1, 0, 0, 0)
+Button_2.Size = UDim2.new(0, 46, 1, 0)
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = Button_2
+
+Bind_4.Name = "Bind"
+Bind_4.Parent = Button_2
+Bind_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bind_4.BackgroundTransparency = 1.000
+Bind_4.BorderSizePixel = 0
+Bind_4.Size = UDim2.new(1, 0, 1, 0)
+Bind_4.Font = Enum.Font.GothamBold
+Bind_4.Text = "Load"
+Bind_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bind_4.TextSize = 14.000
+
+UIPadding_8.Parent = Bind_4
+UIPadding_8.PaddingLeft = UDim.new(0, 6)
+UIPadding_8.PaddingRight = UDim.new(0, 5)
+
+ResetPosition.Name = "ResetPosition"
+ResetPosition.Parent = Buttons_3
+ResetPosition.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ResetPosition.BackgroundTransparency = 1.000
+ResetPosition.BorderSizePixel = 0
+ResetPosition.LayoutOrder = 1
+ResetPosition.Size = UDim2.new(1, 0, 0, 30)
+ResetPosition.Font = Enum.Font.Gotham
+ResetPosition.Text = ""
+ResetPosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+ResetPosition.TextSize = 14.000
+
+UIStroke_11.Parent = ResetPosition
+UIStroke_11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_11.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_11.Transparency = 1.000
+
+Label_6.Name = "Label"
+Label_6.Parent = ResetPosition
+Label_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_6.BackgroundTransparency = 1.000
+Label_6.BorderSizePixel = 0
+Label_6.Position = UDim2.new(0, 5, 0, 0)
+Label_6.Size = UDim2.new(1, 0, 1, 0)
+Label_6.Font = Enum.Font.Gotham
+Label_6.Text = "Reset UI Position"
+Label_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_6.TextSize = 14.000
+Label_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_20.CornerRadius = UDim.new(0, 4)
+UICorner_20.Parent = ResetPosition
+
+Button_3.Name = "Button"
+Button_3.Parent = ResetPosition
+Button_3.AnchorPoint = Vector2.new(1, 0)
+Button_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(1, 0, 0, 0)
+Button_3.Size = UDim2.new(0, 49, 1, 0)
+
+UICorner_21.CornerRadius = UDim.new(0, 4)
+UICorner_21.Parent = Button_3
+
+Bind_5.Name = "Bind"
+Bind_5.Parent = Button_3
+Bind_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bind_5.BackgroundTransparency = 1.000
+Bind_5.BorderSizePixel = 0
+Bind_5.Size = UDim2.new(1, 0, 1, 0)
+Bind_5.Font = Enum.Font.GothamBold
+Bind_5.Text = "Reset"
+Bind_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bind_5.TextSize = 14.000
+
+UIPadding_9.Parent = Bind_5
+UIPadding_9.PaddingLeft = UDim.new(0, 6)
+UIPadding_9.PaddingRight = UDim.new(0, 5)
+
+Version.Name = "Version"
+Version.Parent = Settings
+Version.AnchorPoint = Vector2.new(0, 1)
+Version.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Version.BackgroundTransparency = 1.000
+Version.LayoutOrder = 100
+Version.Position = UDim2.new(0, 0, 1, -5)
+Version.Size = UDim2.new(1, 0, 0, 20)
+Version.Font = Enum.Font.Gotham
+Version.Text = "v1.0.0 | Private Internal"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = FakeInternal
+ScriptHub.AnchorPoint = Vector2.new(0.5, 0.5)
+ScriptHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.5, -410, 0.5, 0)
+ScriptHub.Size = UDim2.new(0, 300, 0, 300)
+
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = ScriptHub
+
+Title_4.Name = "Title"
+Title_4.Parent = ScriptHub
+Title_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title_4.BorderSizePixel = 0
+Title_4.Size = UDim2.new(1, 0, 0, 30)
+Title_4.ZIndex = 2
+Title_4.Font = Enum.Font.Gotham
+Title_4.Text = "Script Hub"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Title_4
+
+UIStroke_12.Parent = ScriptHub
+UIStroke_12.Color = Color3.fromRGB(120, 120, 120)
+
+Popular.Name = "Popular"
+Popular.Parent = ScriptHub
+Popular.Active = true
+Popular.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Popular.BackgroundTransparency = 1.000
+Popular.BorderSizePixel = 0
+Popular.Position = UDim2.new(0, 5, 0, 65)
+Popular.Size = UDim2.new(1, -10, 1, -70)
+Popular.CanvasSize = UDim2.new(0, 0, 0, 0)
+Popular.ScrollingDirection = Enum.ScrollingDirection.Y
+Popular.ScrollBarThickness = 0
+
+UIListLayout_5.Parent = Popular
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 10)
+
+UIPadding_10.Parent = Popular
+UIPadding_10.PaddingBottom = UDim.new(0, 5)
+UIPadding_10.PaddingLeft = UDim.new(0, 5)
+UIPadding_10.PaddingRight = UDim.new(0, 5)
+UIPadding_10.PaddingTop = UDim.new(0, 5)
+
+Item_2.Name = "Item"
+Item_2.Parent = Popular
+Item_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Item_2.BackgroundTransparency = 1.000
+Item_2.Size = UDim2.new(1, 0, 0, 60)
+Item_2.Visible = false
+
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = Item_2
+
+Icon.Name = "Icon"
+Icon.Parent = Item_2
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BackgroundTransparency = 1.000
+Icon.BorderSizePixel = 0
+Icon.Size = UDim2.new(0, 60, 0, 60)
+Icon.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UIStroke_13.Parent = Icon
+UIStroke_13.Color = Color3.fromRGB(120, 120, 120)
+UIStroke_13.Enabled = false
+
+UICorner_25.CornerRadius = UDim.new(0, 4)
+UICorner_25.Parent = Icon
+
+Title_5.Name = "Title"
+Title_5.Parent = Item_2
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.BorderSizePixel = 0
+Title_5.Position = UDim2.new(0, 70, 0, 0)
+Title_5.Size = UDim2.new(1, -70, 0, 20)
+Title_5.Font = Enum.Font.GothamBold
+Title_5.Text = "Example Script"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextSize = 16.000
+Title_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Description.Name = "Description"
+Description.Parent = Item_2
+Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Description.BackgroundTransparency = 1.000
+Description.BorderSizePixel = 0
+Description.Position = UDim2.new(0, 70, 0, 34)
+Description.Size = UDim2.new(1, -75, 0, 26)
+Description.Font = Enum.Font.Gotham
+Description.Text = "A short description about the script."
+Description.TextColor3 = Color3.fromRGB(160, 160, 160)
+Description.TextSize = 12.000
+Description.TextTruncate = Enum.TextTruncate.AtEnd
+Description.TextWrapped = true
+Description.TextXAlignment = Enum.TextXAlignment.Left
+Description.TextYAlignment = Enum.TextYAlignment.Top
+
+Author.Name = "Author"
+Author.Parent = Item_2
+Author.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Author.BackgroundTransparency = 1.000
+Author.BorderSizePixel = 0
+Author.Position = UDim2.new(0, 70, 0, 20)
+Author.Size = UDim2.new(1, -70, 0, 14)
+Author.Font = Enum.Font.Gotham
+Author.Text = "By: Creator"
+Author.TextColor3 = Color3.fromRGB(255, 255, 255)
+Author.TextSize = 12.000
+Author.TextTruncate = Enum.TextTruncate.AtEnd
+Author.TextXAlignment = Enum.TextXAlignment.Left
+Author.TextYAlignment = Enum.TextYAlignment.Top
+
+Button_4.Name = "Button"
+Button_4.Parent = Item_2
+Button_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.BackgroundTransparency = 1.000
+Button_4.BorderSizePixel = 0
+Button_4.Size = UDim2.new(1, 0, 1, 0)
+Button_4.Font = Enum.Font.SourceSans
+Button_4.Text = ""
+Button_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_4.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0, 4)
+UICorner_26.Parent = Button_4
+
+UIStroke_14.Parent = Button_4
+UIStroke_14.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_14.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_14.Transparency = 1.000
+
+Buttons_4.Name = "Buttons"
+Buttons_4.Parent = ScriptHub
+Buttons_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttons_4.BackgroundTransparency = 1.000
+Buttons_4.BorderSizePixel = 0
+Buttons_4.Position = UDim2.new(0, 10, 0, 40)
+Buttons_4.Size = UDim2.new(1, -20, 0, 20)
+
+UIListLayout_6.Parent = Buttons_4
+UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0, 10)
+
+Popular_2.Name = "Popular"
+Popular_2.Parent = Buttons_4
+Popular_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Popular_2.BorderSizePixel = 0
+Popular_2.LayoutOrder = 1
+Popular_2.Size = UDim2.new(0.5, -5, 1, 0)
+Popular_2.Font = Enum.Font.Gotham
+Popular_2.Text = "Popular"
+Popular_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Popular_2.TextSize = 14.000
+
+UIStroke_15.Parent = Popular_2
+UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_15.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_15.Transparency = 1.000
+
+UICorner_27.CornerRadius = UDim.new(0, 4)
+UICorner_27.Parent = Popular_2
+
+Personal.Name = "Personal"
+Personal.Parent = Buttons_4
+Personal.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Personal.BorderSizePixel = 0
+Personal.LayoutOrder = 2
+Personal.Size = UDim2.new(0.5, -5, 1, 0)
+Personal.Font = Enum.Font.Gotham
+Personal.Text = "Personal"
+Personal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Personal.TextSize = 14.000
+
+UIStroke_16.Parent = Personal
+UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_16.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_16.Transparency = 1.000
+
+UICorner_28.CornerRadius = UDim.new(0, 4)
+UICorner_28.Parent = Personal
+
+Personal_2.Name = "Personal"
+Personal_2.Parent = ScriptHub
+Personal_2.Active = true
+Personal_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Personal_2.BackgroundTransparency = 1.000
+Personal_2.BorderSizePixel = 0
+Personal_2.Position = UDim2.new(0, 5, 0, 65)
+Personal_2.Size = UDim2.new(1, -10, 1, -70)
+Personal_2.Visible = false
+Personal_2.CanvasSize = UDim2.new(0, 0, 0, 0)
+Personal_2.ScrollingDirection = Enum.ScrollingDirection.Y
+Personal_2.ScrollBarThickness = 0
+
+UIListLayout_7.Parent = Personal_2
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.Padding = UDim.new(0, 2)
+
+Item_3.Name = "Item"
+Item_3.Parent = Personal_2
+Item_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Item_3.BackgroundTransparency = 1.000
+Item_3.Size = UDim2.new(1, 0, 0, 36)
+Item_3.Visible = false
+
+UICorner_29.CornerRadius = UDim.new(0, 4)
+UICorner_29.Parent = Item_3
+
+Title_6.Name = "Title"
+Title_6.Parent = Item_3
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.BorderSizePixel = 0
+Title_6.Position = UDim2.new(0, 5, 0, 0)
+Title_6.Size = UDim2.new(1, -5, 0, 20)
+Title_6.Font = Enum.Font.GothamBold
+Title_6.Text = "Example Script"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextSize = 16.000
+Title_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Path.Name = "Path"
+Path.Parent = Item_3
+Path.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Path.BackgroundTransparency = 1.000
+Path.BorderSizePixel = 0
+Path.Position = UDim2.new(0, 5, 0, 20)
+Path.Size = UDim2.new(1, -5, 0, 14)
+Path.Font = Enum.Font.Gotham
+Path.Text = "Example Script.lua"
+Path.TextColor3 = Color3.fromRGB(160, 160, 160)
+Path.TextSize = 12.000
+Path.TextTruncate = Enum.TextTruncate.AtEnd
+Path.TextXAlignment = Enum.TextXAlignment.Left
+Path.TextYAlignment = Enum.TextYAlignment.Top
+
+Button_5.Name = "Button"
+Button_5.Parent = Item_3
+Button_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.BackgroundTransparency = 1.000
+Button_5.BorderSizePixel = 0
+Button_5.Size = UDim2.new(1, 0, 1, 0)
+Button_5.Font = Enum.Font.SourceSans
+Button_5.Text = ""
+Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.TextSize = 14.000
+
+UICorner_30.CornerRadius = UDim.new(0, 4)
+UICorner_30.Parent = Button_5
+
+UIStroke_17.Parent = Button_5
+UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_17.Color = Color3.fromRGB(150, 150, 150)
+UIStroke_17.Transparency = 1.000
+
+UIPadding_11.Parent = Personal_2
+UIPadding_11.PaddingBottom = UDim.new(0, 5)
+UIPadding_11.PaddingLeft = UDim.new(0, 5)
+UIPadding_11.PaddingRight = UDim.new(0, 5)
+UIPadding_11.PaddingTop = UDim.new(0, 5)
+
+-- Scripts:
+
+local function XCSQJ_fake_script() -- Editor.EditorScript 
+	local script = Instance.new('LocalScript', Editor)
+
+	if not shared.FakeInternal then
+		shared.FakeInternal = {}
+	end
+	
+	local uis = game:GetService("UserInputService")
+	local lines = script.Parent.Lines
+	local code = script.Parent.Code
+	
+	-- EDITOR SETTINGS
+	local SettingChanged = Instance.new("BindableEvent")
+	local Editor = setmetatable({
+		Font = "Code",
+		TextSize = 14,
+		IndentSize = 4
+	}, {
+		__newindex = function(...)
+			SettingChanged:Fire(...)
+		end
+	})
+	
+	local Utils = {
+		Settings = Editor
+	}
+	
+	function Utils:GetEditorText()
+		return code.Content.Text
+	end
+	function Utils:SetEditorText(text)
+		code.Content.Text = text
+	end
+	
+	shared.FakeInternal.Editor = Utils
+	
+	-----
+	
+	local function PropertyChanged(obj, property, func)
+		return obj:GetPropertyChangedSignal(property):Connect(function()
+			func(obj, obj[property])
+		end)
+	end
+	
+	PropertyChanged(code, "CanvasPosition", function(self, canvaspos)
+		lines.CanvasPosition = Vector2.new(0, canvaspos.Y)
+	end)
+	PropertyChanged(lines, "CanvasPosition", function(self, canvaspos)
+		code.CanvasPosition = Vector2.new(code.CanvasPosition.X, canvaspos.Y)
+	end)
+	
+	PropertyChanged(code.Content, "Text", function(self, text)
+		local _, NewLines = text:gsub("\n", "\n")
+		local LineCount = 1 + NewLines
+		local LineText = ""
+		for i = 1, LineCount do
+			LineText ..= i.."\n"
+		end
+		lines.Content.Text = LineText
+		
+		local TabSize = Editor.IndentSize
+		local TabPosition = text:find("\t")
+		local NoTabs, TabCount = text:gsub("\t", string.rep(" ", TabSize))
+		self.Text = NoTabs
+		if TabCount > 0 then
+			self.CursorPosition = TabPosition + TabSize
+		end
+	end)
+	
+	SettingChanged.Event:Connect(function(self, i, v)
+		lines.Content[i] = v 
+		code.Content[i] = v
+	end)
+end
+coroutine.wrap(XCSQJ_fake_script)()
+local function QCCDVTQ_fake_script() -- Buttons.ButtonsScript 
+	local script = Instance.new('LocalScript', Buttons)
+
+	local TweenService = game:GetService("TweenService")
+	local ButtonHover = Color3.fromRGB(120, 120, 120)
+	local ButtonDown = Color3.fromRGB(170, 170, 170)
+	
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local function Tween(obj, props)
+		TweenService:Create(obj, info, props):Play()
+	end
+	
+	local Editor = shared.FakeInternal.Editor
+	local Activated = {
+		Execute = function()
+			xpcall(function()
+				local code = Editor:GetEditorText()
+				loadstring(code)()
+			end, function(err)
+				shared.FakeInternal.Console:NewItem(err, Enum.MessageType.MessageError)
+			end)
+		end,
+		Clear = function()
+			Editor:SetEditorText("")
+		end
+	}
+	
+	for i,v in next, script.Parent:GetChildren() do
+		if v:IsA("TextButton") then
+			v.AutoButtonColor = false
+			
+			local Stroke = v.UIStroke
+			v.MouseEnter:Connect(function()
+				Stroke.Transparency = 1
+				Stroke.Color = ButtonHover
+				Tween(Stroke, {Transparency = 0})
+			end)
+			v.MouseLeave:Connect(function()
+				Tween(Stroke, {Transparency = 1})
+			end)
+			v.MouseButton1Down:Connect(function()
+				Tween(Stroke, {Color = ButtonDown})
+			end)
+			v.MouseButton1Up:Connect(function()
+				Tween(Stroke, {Color = ButtonHover})
+			end)
+			v.Activated:Connect(Activated[v.Name])
+		end
+	end
+end
+coroutine.wrap(QCCDVTQ_fake_script)()
+local function SIPZBJ_fake_script() -- FakeInternal.MainScript 
+	local script = Instance.new('LocalScript', FakeInternal)
+
+	if not shared.FakeInternal then
+		shared.FakeInternal = {}
+	end
+	
+	shared.FakeInternal.Version = "v1.0.0"
+	
+	local UserInputService = game:GetService("UserInputService")
+	local ContextActionService = game:GetService("ContextActionService")
+	local TweenService = game:GetService("TweenService")
+	local Camera = workspace.CurrentCamera
+	local FieldOfView = Camera.FieldOfView
+	local ButtonHover = Color3.fromRGB(120, 120, 120)
+	local ButtonDown = Color3.fromRGB(170, 170, 170)
+	
+	local BlurName = ""
+	for _ = 1, math.random(16, 32) do
+		BlurName ..= string.char(math.random(97, 122))
+	end
+	local Blur = Instance.new("BlurEffect")
+	Blur.Enabled = true
+	Blur.Name = BlurName
+	Blur.Size = 0
+	Blur.Parent = game:GetService("Lighting")
+	
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local function Tween(obj, props, duration)
+		if duration then
+			TweenService:Create(obj, TweenInfo.new(duration, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), props):Play()
+			return
+		end
+		TweenService:Create(obj, info, props):Play()
+	end
+	
+	local DRAG_SPEED = 0.075
+	local DRAG_INFO = TweenInfo.new(DRAG_SPEED)
+	local function SmoothDrag(a)
+		local toggle = nil
+		local input = nil
+		local start = nil
+		local pos = nil
+		local startpos = nil
+	
+		local function Update(i)
+			local delta = i.Position - start
+			local pos = UDim2.new(startpos.X.Scale, startpos.X.Offset + delta.X, startpos.Y.Scale, startpos.Y.Offset + delta.Y)
+			TweenService:Create(a, DRAG_INFO, {Position = pos}):Play()
+		end
+	
+		a.InputBegan:Connect(function(i)
+			if i.UserInputType.Name == "MouseButton1" and UserInputService:GetFocusedTextBox() == nil then
+				toggle = true
+				start = i.Position
+				startpos = a.Position
+				i.Changed:Connect(function()
+					if i.UserInputState.Name == "End" then
+						toggle = false
+					end
+				end)
+			end
+		end)
+		a.InputChanged:Connect(function(i)
+			if i.UserInputType.Name == "MouseMovement" then
+				input = i
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(i)
+			if i == input and toggle then
+				Update(i)
+			end
+		end)
+	end
+	local function Ternary(condition, iftrue, iffalse)
+		if condition then
+			return iftrue
+		end
+		return iffalse
+	end
+	
+	local Dim = script.Parent.Dim
+	local Executor = script.Parent.Executor
+	local Console = script.Parent.Console
+	local Settings = script.Parent.Settings
+	local ScriptHub = script.Parent.ScriptHub
+	local Windows = {Executor, Console, Settings, ScriptHub}
+	Dim.Visible = true
+	Dim.BackgroundTransparency = 1
+	for _,v in next, Windows do
+		v.Visible = false
+		v.GroupTransparency = 1
+		v.UIStroke.Transparency = 1
+		SmoothDrag(v)
+	end
+	
+	local ActionName = "Toggle Internal"
+	local UIState = false
+	local PopularVisible = true
+	local PersonalVisible = false
+	local function ToggleUI(action, state, i)
+		if action == ActionName and state == Enum.UserInputState.End then
+			UIState = not UIState
+			if UIState then
+				for _,v in next, Windows do
+					v.Visible = true
+				end
+			end
+			local Transparency = UIState and 0 or 1
+			Tween(Dim, {BackgroundTransparency = UIState and 0.35 or 1})
+			Tween(Camera, {FieldOfView = UIState and FieldOfView - 10 or FieldOfView})
+			Tween(Blur, {Size = (UIState and 12 or 0)})
+			for _,v in next, Windows do
+				Tween(v, {GroupTransparency = Transparency})
+				Tween(v.UIStroke, {Transparency = Transparency})
+				if not UIState then
+					task.delay(0.2, function()
+						v.Visible = false
+					end)
+				end
+			end
+		end
+	end
+	local function BindToggle(key)
+		ContextActionService:UnbindAction(ActionName)
+		ContextActionService:BindAction(ActionName, ToggleUI, true, key)
+		if UserInputService.TouchEnabled then
+			local ActionButton = ContextActionService:GetButton(ActionName)
+			ContextActionService:SetTitle(ActionName, "Internal UI")
+			ContextActionService:SetPosition(ActionName, UDim2.new(1, -220, -1, 5))
+			ActionButton.Size = UDim2.fromOffset(80, 80)
+		end
+	end
+	BindToggle(Enum.KeyCode.Insert)
+	
+	shared.FakeInternal.BindToggle = BindToggle
+end
+coroutine.wrap(SIPZBJ_fake_script)()
+local function WJDT_fake_script() -- Buttons_2.ButtonsScript_Console 
+	local script = Instance.new('LocalScript', Buttons_2)
+
+	local TweenService = game:GetService("TweenService")
+	local ButtonHover = Color3.fromRGB(120, 120, 120)
+	local ButtonDown = Color3.fromRGB(170, 170, 170)
+	
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local function Tween(obj, props)
+		TweenService:Create(obj, info, props):Play()
+	end
+	
+	-- CONSOLE SETTINGS
+	local SettingChanged = Instance.new("BindableEvent")
+	local Console = setmetatable({
+		Check = false,
+		AutoScroll = false
+	}, {
+		__newindex = function(...)
+			SettingChanged:Fire(...)
+		end
+	})
+	
+	local Utils = shared.FakeInternal.Console
+	
+	if not shared.FakeInternal.Console then
+		shared.FakeInternal.Console = {}
+	end
+	shared.FakeInternal.ConsoleSettings = Console
+	
+	local States = {}
+	local Activated = {
+		AutoScroll = function()
+			-- brah
+		end,
+		ClearLog = function()
+			for _,v in next, script.Parent.Parent.Log:GetChildren() do
+				if v:IsA("Frame") and v.Name ~= "Item" then
+					v:Destroy()
+				end
+			end
+		end,
+	}
+	
+	for i,v in next, script.Parent:GetChildren() do
+		if v:IsA("TextButton") then
+			v.AutoButtonColor = false
+			local Toggle = v:FindFirstChild("Toggle")
+			if Toggle then
+				States[v] = v.Toggle.State.Transparency == 0
+			end
+			
+			local Stroke = v.UIStroke
+			v.MouseEnter:Connect(function()
+				Stroke.Transparency = 1
+				Stroke.Color = ButtonHover
+				Tween(Stroke, {Transparency = 0})
+			end)
+			v.MouseLeave:Connect(function()
+				Tween(Stroke, {Transparency = 1})
+			end)
+			v.MouseButton1Down:Connect(function()
+				Tween(Stroke, {Color = ButtonDown})
+			end)
+			v.MouseButton1Up:Connect(function()
+				Tween(Stroke, {Color = ButtonHover})
+			end)
+			v.Activated:Connect(function()
+				if Toggle then
+					local state = Toggle.State
+					States[v] = not States[v]
+					Tween(state, {Transparency = States[v] and 0 or 1})
+					Console[v.Name] = not Console[v.Name]
+				end
+				Activated[v.Name]()
+			end)
+		end
+	end
+end
+coroutine.wrap(WJDT_fake_script)()
+local function NXBCNDY_fake_script() -- Console.ConsoleScript 
+	local script = Instance.new('LocalScript', Console)
+
+	if not shared.FakeInternal then
+		shared.FakeInternal = {}
+	end
+	
+	local LogService = game:GetService("LogService")
+	local ScriptContext = game:GetService("ScriptContext")
+	local Types = {
+		[0] = Color3.fromRGB(230, 230, 230), -- Output
+		[1] = Color3.fromRGB(50, 180, 255), -- Info
+		[2] = Color3.fromRGB(250, 170, 0), -- Warning
+		[3] = Color3.fromRGB(250, 50, 0) -- Error
+	}
+	local Log = script.Parent.Log
+	local LastLog = nil
+	local LastLogMsg = ""
+	local LogRepeats = 1
+	
+	local Utils = {}
+	
+	if not shared.FakeInternal.Console then
+		shared.FakeInternal.Console = {}
+	end
+	shared.FakeInternal.Console = Utils
+	
+	function Utils:NewItem(message, type)
+		if message == nil then
+			message = "Error occurred, no output from Lua."
+		end
+		
+		if message == LastLogMsg then
+			LogRepeats += 1
+			
+			LastLog.Message.Text = LastLog.Message.Text:gsub(" %(x%d+%)$", "")..string.format(" (x%s)", LogRepeats)
+			return
+		end
+		LogRepeats = 1
+		
+		local new = Log.Item:Clone()
+		new.Parent = Log
+		new.Visible = true
+		
+		local color = Types[type.Value]
+		local h, s, v = color:ToHSV()
+		local darkercolor = Color3.fromHSV(h, s, 0.6)
+		
+		local date = os.date("*t")
+		local hour = date.hour
+		local min = date.min
+		local sec = date.sec
+		if #tostring(hour) == 1 then
+			hour = "0"..hour
+		end
+		if #tostring(min) == 1 then
+			min = "0"..min
+		end
+		if #tostring(sec) == 1 then
+			sec = "0"..sec
+		end
+		local time = string.format("%s:%s:%s", hour, min, sec)
+		new.Time.Text = time
+		new.Time.TextColor3 = darkercolor
+		new.Name = time
+		
+		new.Message.Text = message
+		new.Message.TextColor3 = color
+		
+		if shared.FakeInternal.ConsoleSettings.AutoScroll then
+			local abs = Log.AbsoluteCanvasSize
+			Log.CanvasPosition = Vector2.new(0, abs.Y + 100)
+		end
+		
+		LastLog = new
+		LastLogMsg = message
+	end
+	
+	local function PropertyChanged(obj, property, func)
+		return obj:GetPropertyChangedSignal(property):Connect(function()
+			func(obj, obj[property])
+		end)
+	end
+	
+	LogService.MessageOut:Connect(function(message, type)
+		Utils:NewItem(message, type)
+	end)
+	
+	PropertyChanged(Log.UIListLayout, "AbsoluteContentSize", function(self, abs)
+		Log.CanvasSize = UDim2.fromOffset(abs.X, abs.Y)
+	end)
+end
+coroutine.wrap(NXBCNDY_fake_script)()
+local function CLAL_fake_script() -- Settings.SettingsScript 
+	local script = Instance.new('LocalScript', Settings)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TextService = game:GetService("TextService")
+	local HttpService = game:GetService("HttpService")
+	local ContextActionService = game:GetService("ContextActionService")
+	local Buttons = script.Parent.Buttons
+	
+	local TweenService = game:GetService("TweenService")
+	local ButtonHover = Color3.fromRGB(120, 120, 120)
+	local ButtonDown = Color3.fromRGB(170, 170, 170)
+	
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local function Tween(obj, props)
+		TweenService:Create(obj, info, props):Play()
+	end
+	local function StrokeEffect(v)
+		local Stroke = v.UIStroke
+		v.AutoButtonColor = false
+		v.MouseEnter:Connect(function()
+			Stroke.Transparency = 1
+			Stroke.Color = ButtonHover
+			Tween(Stroke, {Transparency = 0})
+		end)
+		v.MouseLeave:Connect(function()
+			Tween(Stroke, {Transparency = 1})
+		end)
+		v.MouseButton1Down:Connect(function()
+			Tween(Stroke, {Color = ButtonDown})
+		end)
+		v.MouseButton1Up:Connect(function()
+			Tween(Stroke, {Color = ButtonHover})
+		end)
+	end
+	
+	Buttons.CanvasSize = UDim2.fromOffset(0, Buttons.UIListLayout.AbsoluteContentSize.Y + 10)
+	
+	
+	local Keybind = Buttons.Keybind
+	local CheckingBind = false
+	local function SetBind(bind)
+		Keybind.Bind.Bind.Text = bind
+		local bounds = Keybind.Bind.Bind.TextBounds
+		local size = UDim2.new(0, math.max(bounds.X + 12, 30), 1, 0)
+		Tween(Keybind.Bind, {Size = size})
+	
+		shared.FakeInternal.BindToggle(Enum.KeyCode[bind])
+	end
+	Keybind.Activated:Connect(function()
+		if CheckingBind then return end
+		CheckingBind = true
+		
+		Tween(Keybind.Bind, {Size = UDim2.new(0, 30, 1, 0)})
+		Keybind.Bind.Bind.Text = "..."
+	end)
+	
+	UserInputService.InputEnded:Connect(function(i, gp)
+		if CheckingBind and i.UserInputType == Enum.UserInputType.Keyboard then
+			SetBind(i.KeyCode.Name)
+			CheckingBind = false
+		end
+	end)
+	
+	local MainDirectory = "Internal UI"
+	local SaveDirectory = "Internal UI\\UI.json"
+	local main = script.Parent.Parent
+	local defaultpos = {
+		Executor = {
+			X = 0,
+			Y = -155
+		},
+		Console = {
+			X = 0,
+			Y = 155
+		},
+		ScriptHub = {
+			X = -410,
+			Y = 0
+		},
+		Settings = {
+			X = 410,
+			Y = 0
+		}
+	}
+	local function GetPosition(window)
+		local window = main:FindFirstChild(window)
+		if window then
+			return {
+				X = window.Position.X.Offset,
+				Y = window.Position.Y.Offset
+			}
+		end
+	end
+	local function SaveUIPositions()
+		if getgenv then
+			if not isfolder(MainDirectory) then
+				makefolder(MainDirectory)
+			end
+			local data = {
+				Executor = GetPosition("Executor"),
+				Console = GetPosition("Console"),
+				ScriptHub = GetPosition("ScriptHub"),
+				Settings = GetPosition("Settings"),
+				Toggle = ContextActionService:GetBoundActionInfo("Toggle Internal").inputTypes[1].Name
+			}
+			local encoded = HttpService:JSONEncode(data)
+			writefile(SaveDirectory, encoded)
+		end
+	end
+	local function LoadUIPositions()
+		if getgenv then
+			if isfile(SaveDirectory) then
+				local encoded = readfile(SaveDirectory)
+				local data = HttpService:JSONDecode(encoded)
+				for i,v in next, data do
+					local window = main:FindFirstChild(i)
+					if window then
+						Tween(main[i], {Position = UDim2.new(0.5, v.X, 0.5, v.Y)})
+					end
+				end
+				
+				SetBind(data.Toggle)
+			else
+				SaveUIPositions()
+			end
+		end
+	end
+	local function ResetUIPositions()
+		for i,v in next, main:GetChildren() do
+			if v:FindFirstChild("UIStroke") then
+				local pos = defaultpos[v.Name]
+				Tween(v, {Position = UDim2.new(0.5, pos.X, 0.5, pos.Y)})
+			end
+		end
+	end
+	
+	Buttons.SavePosition.Activated:Connect(SaveUIPositions)
+	Buttons.LoadPosition.Activated:Connect(LoadUIPositions)
+	Buttons.ResetPosition.Activated:Connect(ResetUIPositions)
+	
+	LoadUIPositions()
+	
+	for i,v in next, Buttons:GetChildren() do
+		if v:IsA("TextButton") then
+			StrokeEffect(v)
+		end
+	end
+	
+	task.spawn(function()
+		repeat
+			task.wait(0.1)
+		until shared.FakeInternal.Version ~= nil
+	
+		script.Parent.Version.Text = string.format("%s | made by zzerexx#3970", shared.FakeInternal.Version)
+	end)
+end
+coroutine.wrap(CLAL_fake_script)()
+local function MFJYB_fake_script() -- Popular.ScriptHubScript 
+	local script = Instance.new('LocalScript', Popular)
+
+	if not getgenv then
+		return
+	end
+	
+	local Items = script.Parent
+	local Item = Items.Item
+	local Directory = "Internal UI Scripts"
+	local DirectoryPattern = string.format("^%s\\(.+).lua$", Directory)
+	
+	if not isfolder(Directory) then
+		makefolder(Directory)
+	end
+	
+	local function NewItem(name)
+		local new = Item:Clone()
+		new.Parent = Items
+		new.Visible = true
+		new.Name = name
+		
+		new.Icon.Image = ""
+		new.Title.Text = ""
+		new.Author.Text = ""
+		new.Description.Text = ""
+	end
+	local function Refresh()
+		for i,v in next, listfiles(Directory) do
+			local ScriptName = v:gsub(DirectoryPattern, function(a)
+				return a
+			end)
+			NewItem(ScriptName)
+		end
+	end
+	
+	-- Internal UI Scripts\Script.lua
+end
+coroutine.wrap(MFJYB_fake_script)()
+local function NYMIRF_fake_script() -- ScriptHub.ScriptHubScript 
+	local script = Instance.new('LocalScript', ScriptHub)
+
+	local HttpService = game:GetService("HttpService")
+	local TextService = game:GetService("TextService")
+	local Buttons = script.Parent.Buttons
+	local PopularItems = script.Parent.Popular
+	local PopularItem = PopularItems.Item
+	local PersonalItems = script.Parent.Personal
+	local PersonalItem = PersonalItems.Item
+	local MainDirectory = "Internal UI"
+	local ScriptsDirectory = "Internal UI\\Scripts"
+	local DirectoryPatternLua = string.format("^%s\\(.+).lua$", ScriptsDirectory) -- "^Internal UI\\Scripts\\(.+).lua$"
+	local DirectoryPatternTxt = string.format("^%s\\(.+).txt$", ScriptsDirectory) -- "^Internal UI\\Scripts\\(.+).txt$"
+	local AssetsDirectory = "Internal UI\\Assets"
+	local getcustomasset = getcustomasset or getsynasset or function()
+		return "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	end
+	
+	local TweenService = game:GetService("TweenService")
+	local ButtonHover = Color3.fromRGB(120, 120, 120)
+	local ButtonDown = Color3.fromRGB(170, 170, 170)
+	
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local info2 = TweenInfo.new(0.3, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	local function Tween(obj, props)
+		TweenService:Create(obj, info, props):Play()
+	end
+	local function Tween2(obj, props)
+		TweenService:Create(obj, info2, props):Play()
+	end
+	local function StrokeEffect(v)
+		local Stroke = v.UIStroke
+		v.AutoButtonColor = false
+		v.MouseEnter:Connect(function()
+			Stroke.Transparency = 1
+			Stroke.Color = ButtonHover
+			Tween(Stroke, {Transparency = 0})
+		end)
+		v.MouseLeave:Connect(function()
+			Tween(Stroke, {Transparency = 1})
+		end)
+		v.MouseButton1Down:Connect(function()
+			Tween(Stroke, {Color = ButtonDown})
+		end)
+		v.MouseButton1Up:Connect(function()
+			Tween(Stroke, {Color = ButtonHover})
+		end)
+	end
+	
+	local function CheckDirectory()
+		if getgenv then
+			if not isfolder(MainDirectory) then
+				makefolder(MainDirectory)
+			end
+			if not isfolder(ScriptsDirectory) then
+				makefolder(ScriptsDirectory)
+			end
+			if not isfolder(AssetsDirectory) then
+				makefolder(AssetsDirectory)
+			end
+		end
+	end
+	local function GetScript(file)
+		if not getgenv then
+			return ""
+		end
+		
+		local url = string.format("https://raw.githubusercontent.com/zzerexx/scripts/main/Popular/%s.lua", file)
+		local code = game:HttpGet(url)
+		return loadstring(code, file)
+	end
+	local function GetImage(name, url)
+		if getgenv then
+			CheckDirectory()
+			
+			local path = string.format("%s\\%s.png", AssetsDirectory, name)
+			if not isfile(path) then
+				local content = game:HttpGet(url)
+				writefile(path, content)
+			end
+			
+			return getcustomasset(path)
+		end
+	end
+	local scripts = {
+		{
+			Name = "Domain X",
+			Script = GetScript("DomainX"),
+			Author = "Shlex Softworks",
+			Description = "The smartest script hub on Roblox.",
+			Image = GetImage("DomainX", "https://i.imgur.com/tkNvWlW.png")
+		},
+		{
+			Name = "V.G Hub",
+			Script = GetScript("V.GHub"),
+			Author = "DekuDimz",
+			Description = "A script hub that supports more than 145 games!",
+			Image = GetImage("V.GHub", "https://i.imgur.com/gPWKbhS.png")
+		},
+		{
+			Name = "Fates Admin",
+			Script = GetScript("FatesAdmin"),
+			Author = "fate",
+			Description = "a roblox admin script with fe features undetected to the client",
+			Image = GetImage("FatesAdmin", "https://i.imgur.com/uYJYkdN.png")
+		},
+		{
+			Name = "Infinite Yield",
+			Script = GetScript("InfiniteYield"),
+			Author = "Edge",
+			Description = "The best command line script for roblox.",
+			Image = GetImage("InfiniteYield", "https://i.imgur.com/zsvlYCe.png")
+		},
+		{
+			Name = "Orca",
+			Script = GetScript("Orca"),
+			Author = "0866",
+			Description = "Orca is a general-purpose Roblox script hub.",
+			Image = GetImage("Orca", "https://i.imgur.com/TQFjjYp.png")
+		},
+		{
+			Name = "Hydroxide",
+			Script = GetScript("Hydroxide"),
+			Author = "Upbolt",
+			Description = "General purpose pen-testing tool for Roblox.",
+			Image = GetImage("Hydroxide", "https://i.imgur.com/6zjhfEh.png")
+		},
+		{
+			Name = "Secure Dex v3",
+			Script = GetScript("SecureDexV3"),
+			Author = "Babyhamsta/Hamstagang",
+			Description = "Dark Dex v3 with various bypasses.",
+			Image = GetImage("SecureDexV3", "https://i.imgur.com/aJWoz5B.png")
+		},
+		{
+			Name = "Universal Esp",
+			Script = GetScript("UniversalEsp"),
+			Author = "zzerexx",
+			Description = "esp for most games with many customizable settings",
+			Image = GetImage("UniversalEsp", "https://i.imgur.com/X4vjIuQ.png")
+		},
+		{
+			Name = "Universal Aimbot",
+			Script = GetScript("UniversalAimbot"),
+			Author = "zzerexx",
+			Description = "aimbot for most games with many customizable settings",
+			Image = GetImage("UniversalAimbot", "https://i.imgur.com/VFdn5p4.png")
+		},
+		{
+			Name = "Spotify Player",
+			Script = GetScript("SpotifyPlayer"),
+			Author = "zzerexx",
+			Description = "in-game spotify player with media controls and more",
+			Image = GetImage("SpotifyPlayer", "https://i.imgur.com/bY3uRvq.png")
+		}
+	}
+	
+	local function NewItem(name, path, dir, data)
+		local Items = (dir == "Popular" and PopularItems) or (dir == "Personal" and PersonalItems)
+		local new = Items.Item:Clone()
+		new.Parent = Items
+		new.Visible = true
+		new.Name = name
+		
+		new.Title.Text = name
+		local abs = new.Title.AbsoluteSize
+		if TextService:GetTextSize(name, 16, Enum.Font.Gotham, abs).X > abs.X then
+			new.Title.TextScaled = true
+		end
+		
+		if dir == "Popular" then
+			new.Icon.Image = data.Image
+			new.Author.Text = data.Author
+			new.Description.Text = data.Description
+			new.Button.Activated:Connect(function()
+				if not data.Executed then
+					xpcall(data.Script, function(err)
+						shared.FakeInternal.Console:NewItem(err, Enum.MessageType.MessageError)
+					end)
+				end
+				data.Executed = true
+			end)
+		end
+		if dir == "Personal" then
+			new.Path.Text = name..(data and ".lua" or ".txt")
+			new.Button.Activated:Connect(function()
+				xpcall(function()
+					local code = readfile(path)
+					loadstring(code, name)()
+				end, function(err)
+					shared.FakeInternal.Console:NewItem(err, Enum.MessageType.MessageError)
+				end)
+			end)
+		end
+		Items.CanvasSize = UDim2.new(0, 0, 0, Items.UIListLayout.AbsoluteContentSize.Y + 10)
+		
+		StrokeEffect(new.Button)
+	end
+	local function RefreshPopular()
+		if getgenv then
+			for i,v in ipairs(scripts) do
+				NewItem(v.Name, "", "Popular", v)
+			end
+		end
+	end
+	local function RefreshPersonal()
+		if getgenv then
+			CheckDirectory()
+			
+			for _,v in next, PersonalItems:GetChildren() do
+				if v:IsA("Frame") and v.Name ~= "Item" then
+					v:Destroy()
+				end
+			end
+			for i,v in next, listfiles(ScriptsDirectory) do
+				local lua = false
+				local ScriptName = v:gsub(DirectoryPatternLua, function(a)
+					lua = true
+					return a
+				end)
+				if ScriptName:find("Internal UI\\Scripts") then
+					ScriptName = v:gsub(DirectoryPatternTxt, function(a)
+						lua = false
+						return a
+					end)
+				end
+				if not ScriptName:find("Internal UI\\Scripts") then
+					NewItem(ScriptName, v, "Personal", lua)
+				end
+			end
+		end
+	end
+	RefreshPopular()
+	RefreshPersonal()
+	
+	for i,v in next, script.Parent:GetDescendants() do
+		if v:IsA("TextButton") then
+			StrokeEffect(v)
+		end
+	end
+	
+	local Left = UDim2.new(-1, 5, 0, 65)
+	local Center = UDim2.new(0, 5, 0, 65)
+	local Right = UDim2.new(1, 5, 0, 65)
+	local CurrentPage = "Popular"
+	Buttons.Popular.Activated:Connect(function()
+		if CurrentPage ~= "Popular" then
+			Tween2(PopularItems, {Position = Center})
+			Tween2(PersonalItems, {Position = Right})
+			CurrentPage = "Popular"
+		end
+		PopularItems.Visible = true
+		PersonalItems.Visible = true
+	end)
+	Buttons.Personal.Activated:Connect(function()
+		if CurrentPage ~= "Personal" then
+			RefreshPersonal()
+			Tween2(PersonalItems, {Position = Center})
+			Tween2(PopularItems, {Position = Left})
+			CurrentPage = "Personal"
+		end
+		RefreshPersonal()
+		PersonalItems.Visible = true
+		PopularItems.Visible = true
+	end)
+	PersonalItems.Position = Right
+end
+coroutine.wrap(NYMIRF_fake_script)()
